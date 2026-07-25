@@ -21,16 +21,14 @@ This paper is currently under review at the **Journal of Systems and Software (J
 ## 📖 Table of Contents
 
 1. [Overview](#overview)
-2. [Authors](#-authors)
-3. [Repository Structure](#repository-structure)
-4. [Folder Details](#folder-details)
+2. [Repository Structure](#repository-structure)
+3. [Folder Details](#folder-details)
    - [01_search_strings](#01_search_strings)
    - [02_search_results](#02_search_results)
    - [03_included_studies](#03_included_studies)
-5. [How to Reproduce the Results](#how-to-reproduce-the-results)
-6. [Requirements / Dependencies](#requirements--dependencies)
-7. [Contact](#contact)
-8. [Acknowledgments](#acknowledgments)
+4. [How to Reproduce the Results](#how-to-reproduce-the-results)
+5. [Requirements / Dependencies](#requirements--dependencies)
+6. [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -100,7 +98,7 @@ To fully reproduce the search and selection process:
 
 ---
 
-## 7. Acknowledgments
+## 6. Acknowledgments
 
 - We acknowledge all the authors of the primary studies included in this survey.
 
