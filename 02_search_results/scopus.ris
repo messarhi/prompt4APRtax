@@ -1,33 +1,3 @@
-TY  - JOUR
-TI  - Peer-aided repairer: empowering large language models to repair advanced student assignments
-DO  - 10.1007/s10664-025-10716-z
-UR  - https://www.scopus.com/pages/publications/105024078516?origin=resultslist
-AB  - Automated generation of feedback on programming assignments holds significant benefits for programming education, especially when it comes to advanced assignments. Automated Program Repair techniques, especially Large Language Model-based approaches, have gained notable recognition for their potential in fixing introductory assignments. However, the programs used for evaluation are relatively simple. It remains unclear how existing approaches perform in repairing programs from higher-level programming courses. To address these limitations, we curate a new advanced student assignment dataset named Defects4DS from a higher-level programming course. Subsequently, we identify the challenges related to fixing bugs in advanced assignments. Based on the analysis, we develop a framework called PaR that is powered by the Large Language Models. PaR works in three phases: Peer Solution Selection, Multi-Source Prompt Generation, and Program Repair. Peer Solution Selection identifies the closely related peer programs based on lexical, semantic, and syntactic criteria. Then Multi-Source Prompt Generation adeptly combines multiple sources of information to create a comprehensive and informative prompt for the last Program Repair stage. Evaluation reveals that PaR achieves state-of-the-art performance on Defects4DS compared to baseline approaches, with the impressive improvement of 16.13% in repair rate. And experimental results on several introductory programming assignment datasets further demonstrate the effectiveness of PaR, achieving state-of-the-art results on ITSP and IntroClass datasets. © The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2025.
-KW  - Large language models
-KW  - Program repair
-KW  - Programming education
-KW  - Software engineering
-KW  - Computational linguistics
-KW  - Computer aided software engineering
-KW  - Curricula
-KW  - Defects
-KW  - Engineering education
-KW  - Repair
-KW  - Syntactics
-KW  - High-level programming
-KW  - Language model
-KW  - Large language model
-KW  - Multi-Sources
-KW  - Program repair
-KW  - Programming assignments
-KW  - Programming course
-KW  - Programming education
-KW  - Solution selection
-KW  - Student assignments
-KW  - Semantics
-N1  - Export Date: 05 July 2026
-ER  -
-
 TY  - CONF
 TI  - Specification-Guided Repair of Arithmetic Errors in Dafny Programs Using LLMs
 DO  - 10.1007/978-3-032-10444-1_16
@@ -51,38 +21,7 @@ KW  - Large language model
 KW  - Projects fail
 KW  - Repair techniques
 KW  - Automation
-N1  - Export Date: 05 July 2026
-ER  -
-
-TY  - CONF
-TI  - NMT vs MLM: Which is the Best Paradigm for APR?
-DO  - 10.1109/CEC60901.2024.10612028
-UR  - https://www.scopus.com/pages/publications/85201730567?origin=resultslist
-AB  - Automated Program Repair (APR) has garnered significant attention in recent years, especially when combined with the latest advancements in deep learning, further enhancing its automation and repair efficiency. Traditional learning-based APR typically employs Neural Machine Translation (NMT) technology, treating the repair task as a translation process from defective code to repaired code, known as the NMT paradigm. With the emergence of large pre-trained models, a novel approach considers the repair process as a fill-in-the-blanks task, masking defective code and using Masked Language Models (MLM) to predict the masked positions, resulting in repaired code, referred to as the MLM paradigm. However, the applicability of this new learning paradigm in APR has not been widely explored, and the differences in repair effectiveness compared to the NMT paradigm remain unclear. This paper delves into the performance differences between the MLM and NMT paradigms in APR through empirical research. Although both paradigms have drawn attention in the APR domain, their methodologies differ, necessitating a comprehensive evaluation and comparison in the same experimental environment, particularly in Natural Language Models (NLM) and Code Language Models (CLM).The results reveal that in NLM, the NMT paradigm excels with higher repair accuracy, leveraging large parallel corpora for supervised training and focusing on machine translation tasks, facilitating better learning of correspondences and semantic representations between languages. However, when dealing with more complex programming languages like CLM, the repair effectiveness of the NMT paradigm lags behind that of the MLM paradigm. NMT struggles to learn the syntax and semantic relationships of real-world programming languages, while the MLM paradigm comprehends code syntax and structure more effectively. It accurately identifies variable scopes, function call relationships, and dependencies between code blocks, allowing the model to infer errors and generate repaired code that aligns with programming language specifications. In summary, each paradigm demonstrates advantages in different repair scenarios. It is recommended to choose the appropriate technical paradigm based on specific repair needs and contexts in practical applications.  © 2024 IEEE.
-KW  - Automated Program Repair
-KW  - Code Language Model
-KW  - Masked Language Model
-KW  - Natural Language Model
-KW  - Neural Machine Translation
-KW  - Coding errors
-KW  - Computer aided language translation
-KW  - Deep learning
-KW  - Neural machine translation
-KW  - Problem oriented languages
-KW  - Program translators
-KW  - Supervised learning
-KW  - Syntactics
-KW  - Automated program repair
-KW  - Code language model
-KW  - Code languages
-KW  - Language model
-KW  - Machine translations
-KW  - Masked language model
-KW  - Modeling paradigms
-KW  - Natural language model
-KW  - Repair effectiveness
-KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -111,7 +50,7 @@ KW  - Safety rules
 KW  - Software and its engineering → general programming language
 KW  - Software development techniques
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -141,64 +80,7 @@ KW  - Large language model
 KW  - Science libraries
 KW  - Tree nodes
 KW  - Data Science
-N1  - Export Date: 05 July 2026
-ER  -
-
-TY  - JOUR
-TI  - HOMOGRAPH: a novel textual adversarial attack architecture to unmask the susceptibility of linguistic acceptability classifiers
-DO  - 10.1007/s10207-024-00925-w
-UR  - https://www.scopus.com/pages/publications/85208502953?origin=resultslist
-AB  - The increasing adoption of deep learning algorithms for automating downstream natural language processing (NLP) tasks has created a need to enhance their capability to assess linguistic acceptability. The CoLA corpus was created to aid in the development of models that can accurately assess grammatical acceptability and evaluate linguistic proficiency. Transformer models, widely utilized in various natural language processing tasks, including the evaluation of linguistic acceptability, may possess limitations that undermine their perceived robustness. These models exhibit susceptibility to adversarial text attacks, which are characterized by inconspicuous modifications made to the original input text. The tactfully chosen modifications are such that the adversarial examples generated, although correctly classified by human observers, successfully mislead the targeted model of the attack, consequently hindering its reliability. This paper presents a novel framework called ‘Homograph’ to generate adversarial text in a black-box setting. The efficacy of the suggested attack in undermining models designed for linguistic acceptability is significantly enhanced by its capability to generate visually similar adversarial examples that do not compromise the grammatical acceptability of the original input samples. These examples effectively deceive the model, causing it to modify its predicted label. In the context of the linguistic acceptability task, our attack was effectively applied to five transformer models: ALBERT, BERT, DistilBERT, RoBERTa, and XL-Net, fine-tuned on the CoLA dataset. Our work distinguishes itself from existing text-based attacks through several contributions. Firstly, we surpass previous baselines in terms of attack success rate (ASR) and average perturbation rate (APR) for models trained on the CoLA dataset. Secondly, we generate more potent adversarial examples that contain imperceptible modifications, thereby preserving the original label. Lastly, we employ a straightforward character-level transformation technique to produce adversarial examples that closely resemble the original text. © The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature 2024.
-KW  - CoLA dataset
-KW  - Linguistic acceptability
-KW  - Natural language processing (NLP)
-KW  - Textual adversarial attack
-KW  - Transformers
-KW  - Deep learning
-KW  - Distribution transformers
-KW  - Generative adversarial networks
-KW  - Linguistics
-KW  - Natural language processing systems
-KW  - Classifieds
-KW  - CoLA dataset
-KW  - Down-stream
-KW  - Language processing
-KW  - Linguistic acceptability
-KW  - Natural language processing
-KW  - Natural languages
-KW  - Textual adversarial attack
-KW  - Transformer
-KW  - Transformer modeling
-KW  - Adversarial machine learning
-N1  - Export Date: 05 July 2026
-ER  -
-
-TY  - CONF
-TI  - Automated Vulnerability Repair of Obfuscated and Non-Obfuscated Smart Contracts Using Large Language Models
-DO  - 10.1109/PRDC67299.2025.00030
-UR  - https://www.scopus.com/pages/publications/105029911497?origin=resultslist
-AB  - Recently, automated program repair using large language models (LLMs) has attracted growing attention. In the context of Ethereum smart contracts, where addressing vulnerabilities before deployment is essential, several studies have begun exploring LLM-based vulnerability repair. These studies typically evaluate repair methods on publicly available contracts. However, the effectiveness of LLMs in fixing vul-nerabilities in previously unseen contracts remains unclear. To address this question, we applied an obfuscation technique to simulate unknown contracts and used Code Llama - Instruct and GPT-3.S Turbo to attempt automated repairs. We collected 11 publicly available vulnerable contracts and generated obfuscated versions of each to simulate previously unseen contracts. We then evaluated the performance of the LLMs on both sets. Code Llama - Instruct successfully repaired one original contract and four obfuscated ones. In contrast, GPT-3.5 Turbo correctly fixed seven contracts in each group. These results suggest that LLMs are capable of consistently addressing vulnerabilities in both existing and obfuscated (i.e., simulated unknown) contracts.  © 2025 IEEE.
-KW  - automated fix
-KW  - Ethereum smart contract
-KW  - Large language model
-KW  - obfuscation
-KW  - vulnerability
-KW  - Codes (symbols)
-KW  - Corrective maintenance
-KW  - Data obfuscation
-KW  - Repair
-KW  - Smart contract
-KW  - Automated fix
-KW  - Ethereum smart contract
-KW  - Language model
-KW  - Large language model
-KW  - Model-based OPC
-KW  - Obfuscation
-KW  - Performance
-KW  - Repair methods
-KW  - Vulnerability
-KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -228,7 +110,7 @@ KW  - Multi-modal
 KW  - Multimodal issue
 KW  - Visual information
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -252,38 +134,7 @@ KW  - Embeddings
 KW  - Software vulnerabilities
 KW  - Structural information
 KW  - Data flow analysis
-N1  - Export Date: 05 July 2026
-ER  -
-
-TY  - CONF
-TI  - Fixing Broken Graphs: LLM-Powered Automatic Code Optimization for DNN Programs
-DO  - 10.1109/ASE63991.2025.00144
-UR  - https://www.scopus.com/pages/publications/105034637963?origin=resultslist
-AB  - Deep learning compilers optimize DNN program execution by capturing them as operator-based computation graphs. However, developers' deep learning programs often contain complex Python language features that prevent compilers from recognizing the entire program as a complete computation graph, resulting in sub-optimal performance. Our analysis reveals that actual capture failures involve only a few lines of code, we believe this problem can be addressed through code repair rather than extensive compiler improvements. To address this challenge, we introduce GraphGlue, a multi-agent system that leverages LLMs to repair and optimize DNN programs for compiler requirements, thereby maximizing the performance benefits of deep learning compilers in inference scenarios. GraphGlue employs (1) graph-break cause mining (GCM) to identify hidden causes of computation graph breaks and facilitate LLM-based repair, and (2) self-correction with reject sampling (SRS) to alternate between code debugging and regeneration, effectively avoiding ineffective feedback attempts caused by incorrect initial optimization strategies. Experimental results demonstrate that programs optimized by GraphGlue achieve up to 2.19x (1.23x on average) speedup compared to using TorchDynamo directly, and deliver up to 15.77x (8.74x on average) memory savings compared to state-of-the-art AI compiler frontends. GraphGlue exhibits strong generalization capabilities across 1,411 real-world user programs, successfully optimizing 92.63% of them. Code is available at https://github.com/Jamesswang/GraphGlue. © 2025 IEEE.
-KW  - code optimization
-KW  - computation graph
-KW  - LLM
-KW  - Automatic programming
-KW  - Codes (symbols)
-KW  - Deep learning
-KW  - Graph theory
-KW  - Optimal systems
-KW  - Optimization
-KW  - Program compilers
-KW  - Program debugging
-KW  - Repair
-KW  - Automatic codes
-KW  - Code optimization
-KW  - Computation graph
-KW  - Language features
-KW  - Learning projects
-KW  - Line of codes
-KW  - LLM
-KW  - Program execution
-KW  - PYTHON language
-KW  - Sub-optimal performance
-KW  - Multi agent systems
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -307,35 +158,7 @@ KW  - Synchronization technique
 KW  - Synthesis programs
 KW  - Test generations
 KW  - Repair
-N1  - Export Date: 05 July 2026
-ER  -
-
-TY  - JOUR
-TI  - Federated fine-grained prompts for vision-language models based on open-vocabulary object detection
-DO  - 10.1007/s10489-025-06527-w
-UR  - https://www.scopus.com/pages/publications/105002657325?origin=resultslist
-AB  - Vision-language models can be used for open-vocabulary object detection. The existing methods suffer from low matching accuracy between prompt and image regions, as well as limited generalization capability as they adopt a data-centralized model training approach that ignores data heterogeneity. To alleviate these issues, we propose a federated fine-grained prompts learning method called FFPLearning, for open-vocabulary object detection using vision-language models. Specifically, FFPLearning quantifies the quality of proposals using pre-fused EoG (Energy of Gradient) and IoU (Intersection over Union) scores and organizes them into individual groups. Then learnable fine-grained prompts are trained to align the grouped region proposals in the feature space. A momentum update algorithm is designed to assess the quality of each participating client in the federated learning. Additionally, a Transformer-based feedback aggregation algorithm is designed to thoroughly leverage the semantic information from prompts and aggregate them based on the qualities of clients. Comprehensive evaluations on COCO and LVIS datasets demonstrate that FFPLearning is very effective, with +5.8 Novel AP50 and +3.3 APr improvements compared with existing state-of-the-art methods. © The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature 2025.
-KW  - Federated learning
-KW  - Open-vocabulary object detection
-KW  - Vision-language model
-KW  - Adversarial machine learning
-KW  - Contrastive Learning
-KW  - Image matching
-KW  - Semantics
-KW  - Visual languages
-KW  - Vocabulary control
-KW  - Centralized models
-KW  - Fine grained
-KW  - Generalization capability
-KW  - Image regions
-KW  - Language model
-KW  - Matchings
-KW  - Model-based OPC
-KW  - Objects detection
-KW  - Open-vocabulary object detection
-KW  - Vision-language model
-KW  - Federated learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -361,42 +184,7 @@ KW  - Verification framework
 KW  - Vulnerability detection
 KW  - Vulnerability verification
 KW  - Information leakage
-N1  - Export Date: 05 July 2026
-ER  -
-
-TY  - JOUR
-TI  - Navigating the Landscape of Automated Feedback Generation Techniques for Programming Exercises
-DO  - 10.1145/3764593
-UR  - https://www.scopus.com/pages/publications/105020849652?origin=resultslist
-AB  - Programming demands a variety of cognitive skills, and mastering these competencies is essential for success in computer science education. The importance of formative feedback is well acknowledged in programming education, and thus, a diverse range of techniques has been proposed to generate and enhance formative feedback for programming exercises. This article reviews state-of-the-art automated feedback generation techniques and categorizes the various approaches based on the underlying computational techniques, programming languages, the kind of programming errors they deal with, and the type of feedback they provide. It covers data-driven techniques, those which use program repair methods, machine learning-based techniques, and techniques based around the use of large language models, particularly noting the rapid uptake of the latter. The article provides a summary of key findings and challenges, alongside recommendations for future work. The findings reveal that although there exist numerous tools for automated programming feedback, many studies depend on non-public benchmarks, which limits reproducibility and independent evaluation of the tools and their datasets. Additionally, tools are not always language agnostic and in some cases involve complex configuration steps. Large language models have demonstrated transformative potential in generating feedback. However, most research has focused on introductory courses (CS1 and CS2) indicating the need to apply them in advanced fields like machine learning and image processing. Although large language models have outperformed traditional approaches, challenges related to hallucinations and incorrect responses still need to be addressed as precision is critical in a pedagogical setting. Most of the studies use proprietary models that lack transparency and customization options, emphasizing the need for further research into open LLM alternatives. © 2025 Copyright held by the owner/author(s).
-KW  - automated feedback
-KW  - hints
-KW  - learning programming
-KW  - literature review
-KW  - programming languages
-KW  - Arts computing
-KW  - Automation
-KW  - Curricula
-KW  - Education computing
-KW  - Engineering education
-KW  - Feedback
-KW  - Image processing
-KW  - Learning algorithms
-KW  - Learning systems
-KW  - Machine learning
-KW  - Teaching
-KW  - Automated feedback
-KW  - Cognitive skill
-KW  - Formative feedbacks
-KW  - Generation techniques
-KW  - Hint
-KW  - Language model
-KW  - Learning programming
-KW  - Literature reviews
-KW  - Machine-learning
-KW  - Programming exercise
-KW  - Computer programming languages
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -425,7 +213,7 @@ KW  - Multiagent framework
 KW  - Performance
 KW  - Software debugging
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -450,7 +238,7 @@ KW  - Side-channel information
 KW  - Traffic analysis
 KW  - Website fingerprinting
 KW  - Websites
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -471,7 +259,7 @@ KW  - Software-systems
 KW  - Template learning
 KW  - Template-based
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -507,7 +295,7 @@ KW  - Self-verification
 KW  - Source codes
 KW  - Test reports
 KW  - Software design
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -530,7 +318,7 @@ KW  - Modern applications
 KW  - Software vulnerabilities
 KW  - Tools and techniques
 KW  - Vulnerability detection
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -555,7 +343,7 @@ KW  - Digital product development
 KW  - Language model
 KW  - Large language model
 KW  - Job satisfaction
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -569,7 +357,7 @@ KW  - Deep learning
 KW  - Large language models
 KW  - Program repair
 KW  - Software engineering
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -593,7 +381,7 @@ KW  - Modelling capabilities
 KW  - Natural languages
 KW  - Property
 KW  - Systems analysis
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -620,7 +408,7 @@ KW  - Large language model
 KW  - Planning tools
 KW  - Tool use
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -639,7 +427,7 @@ KW  - Computer science students
 KW  - Language model
 KW  - Programming codes
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -669,7 +457,7 @@ KW  - Learning frameworks
 KW  - Natural languages
 KW  - Regression testing
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -695,7 +483,7 @@ KW  - Performance
 KW  - Removal algorithms
 KW  - State of the art
 KW  - Object detection
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -726,7 +514,7 @@ KW  - Repair techniques
 KW  - Research efforts
 KW  - Robustness testing
 KW  - Cosine transforms
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -758,7 +546,7 @@ KW  - Reasoning approach
 KW  - SDN
 KW  - Vulnerability detection
 KW  - Formal verification
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -795,7 +583,7 @@ KW  - Software engineering practices
 KW  - Systematic literature review
 KW  - Tools and techniques
 KW  - Self-healing materials
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -820,7 +608,7 @@ KW  - Real-world
 KW  - Repair methods
 KW  - Repair process
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -863,7 +651,7 @@ KW  - multiomics
 KW  - procedures
 KW  - software
 KW  - Autonomous agents
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -882,7 +670,7 @@ KW  - Multi-lingual tasks
 KW  - Swedishs
 KW  - Target language
 KW  - Restoration
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -910,7 +698,7 @@ KW  - Software-systems
 KW  - Suggestion generation
 KW  - Vulnerability repair
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -936,7 +724,7 @@ KW  - Repair tools
 KW  - Software bug
 KW  - Template-based
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -965,7 +753,7 @@ KW  - Large language model
 KW  - Natural languages
 KW  - Performance
 KW  - Specifications
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -992,7 +780,7 @@ KW  - Programming education
 KW  - Quality feedbacks
 KW  - Student project
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -1019,7 +807,7 @@ KW  - Open source projects
 KW  - Performance
 KW  - Privacy
 KW  - Information leakage
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1042,7 +830,7 @@ KW  - Training data
 KW  - Trojans
 KW  - Vulnerability detection
 KW  - Software design
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -1092,7 +880,7 @@ KW  - leukoplakia
 KW  - narrow band imaging
 KW  - pathology
 KW  - procedures
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1120,7 +908,7 @@ KW  - Machine instructions
 KW  - Source codes
 KW  - Surgical procedures
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1150,7 +938,7 @@ KW  - Retrieval-augmented generation
 KW  - RTL designs
 KW  - Testability
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1178,7 +966,7 @@ KW  - Multi-agent collaboration
 KW  - Patch integration
 KW  - Repair rate
 KW  - Merging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -1214,7 +1002,7 @@ KW  - Large language model–based defensive system
 KW  - Model-based OPC
 KW  - Red teaming
 KW  - Decision support systems
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -1239,7 +1027,7 @@ KW  - LLM4SE
 KW  - Performance
 KW  - Source codes
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1268,7 +1056,7 @@ KW  - Learning techniques
 KW  - Overfitting
 KW  - Small data set
 KW  - Benchmarking
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -1301,7 +1089,7 @@ KW  - Programming education
 KW  - Repair techniques
 KW  - State of the art
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1322,7 +1110,7 @@ KW  - Repair tools
 KW  - State of the art
 KW  - Test failure
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1350,7 +1138,7 @@ KW  - Large language model
 KW  - Project levels
 KW  - Project-level patch generation
 KW  - Genetic algorithms
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1381,7 +1169,7 @@ KW  - Social media
 KW  - Social media analysis
 KW  - Suicide detection
 KW  - Active learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -1411,14 +1199,14 @@ KW  - Repair techniques
 KW  - Research domains
 KW  - Software Specification
 KW  - Formal specification
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - label.ris.referenceType.CONFERENCE_REVIEW.p
 TI  - Proceedings - 2024 IEEE Conference on Software Testing, Verification and Validation, ICST 2024
 UR  - https://www.scopus.com/pages/publications/85203788997?origin=resultslist
 AB  - The proceedings contain 48 papers. The topics discussed include: enhanced fast and reliable statistical vulnerability root cause analysis with sanitizer; BugOut: automated test generation and bug detection for low-code; on the coupling between vulnerabilities and LLM-generated mutants: a study on Vul4J dataset; evolutionary testing for program repair; are we testing or being tested? exploring the practical applications of large language models in software testing; intent-driven mobile GUI testing with autonomous large language model agents; in industrial embedded software, are some compilation errors easier to localize and fix than others?; automatically reproducing timing-dependent flaky-test failures; 230,439 test failures later: an empirical evaluation of flaky failure classifiers; and adversarial testing with reinforcement learning: a case study on autonomous driving.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -1430,14 +1218,14 @@ KW  - Code generation
 KW  - Code repair
 KW  - Large language models
 KW  - Static analysis
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - label.ris.referenceType.CONFERENCE_REVIEW.p
 TI  - Proceedings - 2024 International Workshop on Large Language Models for Code, LLM4Code 2024
 UR  - https://www.scopus.com/pages/publications/85205932000?origin=resultslist
 AB  - The proceedings contain 19 papers. The topics discussed include: industrial experience report on AI-assisted coding in professional software development; gauging tech community acceptance of rapid prototyping in unfamiliar programming languages using LLM chatbots; learn to code sustainably: an empirical study on green code generation; LLM-based control code generation using image recognition; translation of low-resource COBOL to logically correct and readable Java leveraging high-resource java refinement; unit test generation using generative AI : a comparative performance analysis of autogeneration tools; PromptSet: a programmer's prompting dataset; enhancing LLM-based coding tools through native integration of IDE-derived static context; evaluating fault localization and program repair capabilities of existing closed-source general-purpose LLMs; and investigating the proficiency of large language models in formative feedback generation for student programmers.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1464,7 +1252,7 @@ KW  - Large language model
 KW  - Model based approach
 KW  - Verification techniques
 KW  - Formal verification
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1490,7 +1278,7 @@ KW  - Program repair
 KW  - Programming assignments
 KW  - Repair techniques
 KW  - Education computing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -1506,7 +1294,7 @@ KW  - intelligent search
 KW  - large language model
 KW  - lightweight architecture
 KW  - software engineering
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1533,7 +1321,7 @@ KW  - Real-world
 KW  - Testing time
 KW  - Visual perception models
 KW  - Agents
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1564,7 +1352,7 @@ KW  - Software engineering agent
 KW  - Software engineering methods
 KW  - Tree-search
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1592,7 +1380,7 @@ KW  - Software development and maintenances
 KW  - State of the art
 KW  - Three-component
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1625,7 +1413,7 @@ KW  - Reproducibilities
 KW  - Reproducibility challenge
 KW  - Standardized dataset
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1648,7 +1436,7 @@ KW  - Modeling process
 KW  - Patch based
 KW  - Speech generation
 KW  - Diffusion
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -1674,7 +1462,7 @@ KW  - Large language model
 KW  - Mistral
 KW  - Vulnerability repair
 KW  - C++ (programming language)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1701,7 +1489,7 @@ KW  - Test-bench
 KW  - Verification tools
 KW  - Verilog code
 KW  - Location
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1725,7 +1513,7 @@ KW  - Repair techniques
 KW  - Repair tools
 KW  - Software patches
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -1733,7 +1521,7 @@ TI  - Correction: Giant Could Be Tiny: Efficient Inference of Giant Models on Re
 DO  - 10.1109/JIOT.2025.3531743
 UR  - https://www.scopus.com/pages/publications/85219251721?origin=resultslist
 AB  - IN [1], the last two pages of the article were missing in the final paginated version. These missing pages are included here. [15] Z. He, T. Zhang, and R. B. Lee, “Model inversion attacks against collaborative inference,” in Proc. 35th Annu. Comput. Secur. Appl. Conf., 2019, pp. 148–162. [16] S. Chen, M. Kahla, R. Jia, and G.-J. Qi, “Knowledge-enriched distributional model inversion attacks,” in Proc. IEEE/CVF Int. Conf. Comput. Vis., 2021, pp. 16178–16187. [17] X. Wang, D. Zeng, Q. Zhao, and S. Li, “Rank-based filter pruning for real-time UAV tracking,” in Proc. IEEE Int. Conf. Multimedia Expo (ICME), 2022, pp. 1–6. [18] B. Wang, X. Peng, M. Jiang, and D. Liu, “Real-time fault detection for UAV based on model acceleration engine,” IEEE Trans. Instrum. Meas., vol. 69, no. 12, pp. 9505–9516, Dec. 2020. [19] C. Riquelme et al., “Scaling vision with sparse mixture of experts,” in Proc. 35th Adv. Neural Inf. Process. Syst., 2021, pp. 8583–8595. [20] J. Zhou et al., “Graph neural networks: A review of methods and applications,” AI Open, vol. 1, pp. 57–81, Jan. 2020. [21] A. Dosovitskiy et al., “An image is worth 16x16 words: Transformers for image recognition at scale,” 2021, arXiv:2010.11929. [22] J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li, and L. Fei-Fei, “Imagenet: A large-scale hierarchical image database,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit., 2009, pp. 248–255. [23] T. N. Kipf and M. Welling, “Semi-supervised classification with graph convolutional networks,” 2017, arXiv:1609.02907. [24] C. Shang, J. Chen, and J. Bi, “Discrete graph structure learning for forecasting multiple time series,” in Proc. Int. Conf. Learn. Represent., 2021, pp. 1–14. [25] W. Hamilton, Z. Ying, and J. Leskovec, “Inductive representation learning on large graphs,” in Proc. 31st Adv. Neural Inf. Process. Syst., 2017, pp. 1–11. [26] S. A. Huda and S. Moh, “Survey on computation offloading in UAVenabled mobile edge computing,” J. Netw. Comput. Appl., vol. 201, May 2022, Art. no. 103341. [27] J. Lynskey, “Maximizing offloading opportunities for UAV communication,” Korean Netw. Oper. Manage., Jeju Nat. Univ., Jeju, South Korea, 2018. [28] R. Valentino, W.-S. Jung, and Y.-B. Ko, “Opportunistic computational offloading system for clusters of drones,” in Proc. 20th Int. Conf. Adv. Commun. Technol. (ICACT), 2018, pp. 303–306. [29] Y. Liu, S. Xie, and Y. Zhang, “Cooperative offloading and resource management for UAV-enabled mobile edge computing in power IoT system,” IEEE Trans. Veh. Technol., vol. 69, no. 10, pp. 12229–12239, Oct. 2020. [30] B. Yang, X. Cao, C. Yuen, and L. Qian, “Offloading optimization in edge computing for deep-learning-enabled target tracking by Internet of UAVs,” IEEE Internet Things J., vol. 8, no. 12, pp. 9878–9893, Jun. 2021. [31] M. Dai, Z. Su, Q. Xu, and N. Zhang, “Vehicle assisted computing offloading for unmanned aerial vehicles in smart city,” IEEE Trans. Intell. Transp. Syst., vol. 22, no. 3, pp. 1932–1944, Mar. 2021. [32] A. Sacco, F. Esposito, G. Marchetto, and P. Montuschi, “A selflearning strategy for task offloading in UAV networks,” IEEE Trans. Veh. Technol., vol. 71, no. 4, pp. 4301–4311, Apr. 2022. [33] Y. Hu et al., “PipeEdge: Pipeline parallelism for large-scale model inference on heterogeneous edge devices,” in Proc. 25th Euromicro Conf. Digit. Syst. Design (DSD), 2022, pp. 298–307. [34] G. Xu, Z. Hao, Y. Luo, H. Hu, J. An, and S. Mao, “DeViT: Decomposing vision transformers for collaborative inference in edge devices,” IEEE Trans. Mobile Comput., early access, Sep. 13, 2023, doi: 10.1109/TMC.2023.3315138. [35] X. Wang, X. Zhuang, W. Zhang, Y. Chen, and Y. Li, “Lightweight real-time object detection model for UAV platform,” in Proc. Int. Conf. Comput. Commun. Artif. Intell. (CCAI), 2021, pp. 20–24. [36] S. Bultmann, J. Quenzel, and S. Behnke, “Real-time multi-modal semantic fusion on unmanned aerial vehicles,” in Proc. Eur. Conf. Mobile Robots (ECMR), 2021, pp. 1–8. [37] M. Vandersteegen, K. Van Beeck, and T. Goedemé, “Super accurate low latency object detection on a surveillance UAV,” in Proc. 16th Int. Conf. Mach. Vis. Appl. (MVA), 2019, pp. 1–6. [38] M. M. Fouda, S. Sakib, Z. M. Fadlullah, N. Nasser, and M. Guizani, “A lightweight hierarchical AI model for UAV-enabled edge computing with forest-fire detection use-case,” IEEE Netw., vol. 36, no. 6, pp. 38–45, Nov./Dec. 2022. [39] B. Li et al., “Efficient transformer-based large scale language representations using hardware-friendly block structured pruning,” 2020, arXiv:2009.08065. [40] M. W. Ur Rahman et al., “Quantized transformer language model implementations on edge devices,” 2023, arXiv:2310.03971. [41] R. Kong, Y. Li, Q. Feng, W. Wang, L. Kong, and Y. Liu, “SwapMoE: Efficient memory-constrained serving of large sparse MoE models via dynamic expert pruning and swapping,” 2023, arXiv:2308.15030. [42] Q. Hu, Y. Cai, G. Yu, Z. Qin, M. Zhao, and G. Y. Li, “Joint offloading and trajectory design for UAV-enabled mobile edge computing systems,” IEEE Internet Things J., vol. 6, no. 2, pp. 1879–1892, Apr. 2019. [43] T. Zhang, Y. Xu, J. Loo, D. Yang, and L. Xiao, “Joint computation and communication design for UAV-assisted mobile edge computing in IoT,” IEEE Trans. Ind. Informat., vol. 16, no. 8, pp. 5505–5516, Aug. 2020. [44] M. Yi, X. Wang, J. Liu, Y. Zhang, and B. Bai, “Deep reinforcement learning for fresh data collection in UAV-assisted IoT networks,” in Proc. IEEE Conf. Comput. Commun. Workshops (INFOCOM WKSHPS), 2020, pp. 716–721. [45] C. Chen, T. Zhang, Y. Liu, G. Y. Li, and Z. Zeng, “Joint user association and caching placement for cache-enabled UAVs in cellular networks,” in Proc. IEEE Conf. Comput. Commun. Workshops (INFOCOM WKSHPS), 2019, pp. 1–6. [46] T. Zhang, Y. Wang, Y. Liu, W. Xu, and A. Nallanathan, “Cache-enabling UAV communications: Network deployment and resource allocation,” IEEE Trans. Wireless Commun., vol. 19, no. 11, pp. 7470–7483, Nov. 2020. [47] A. Al-Hourani, S. Kandeepan, and S. Lardner, “Optimal LAP altitude for maximum coverage,” IEEE Wireless Commun. Lett., vol. 3, no. 6, pp. 569–572, Dec. 2014. [48] P. Velickovi ˇ c, G. Cucurull, A. Casanova, A. Romero, P. Lio, and ´ Y. Bengio, “Graph attention networks,” 2018, arXiv:1710.10903. [49] Y. Guo, S. Gu, Q. Zhang, N. Zhang, and W. Xiang, “A coded distributed computing framework for task offloading from multi-UAV to edge servers,” in Proc. IEEE Wireless Commun. Netw. Conf. (WCNC), 2021, pp. 1–6. [50] Z. Kuang, H. Wang, J. Li, and F. Hou, “Utility-aware UAV deployment and task offloading in multi-UAV edge computing networks,” IEEE Internet Things J., early access, Dec. 26, 2023, doi: 10.1109/JIOT.2023.3344570. [51] Z. Lin and W. Chen, “Content pushing over multiuser MISO downlinks with multicast beamforming and recommendation: A cross-layer approach,” IEEE Trans. Commun., vol. 67, no. 10, pp. 7263–7276, Oct. 2019. [52] P. Rajpurkar, J. Zhang, K. Lopyrev, and P. Liang, “Squad: 100000+ questions for machine comprehension of text,” 2016, arXiv:1606.05250. [53] C. Luo, J. Nightingale, E. Asemota, and C. Grecos, “A UAV-cloud system for disaster sensing applications,” in Proc. IEEE 81st Veh. Technol. Conf. (VTC Spring), Glasgow, U.K., 2015, pp. 1–5. [54] T. Ringwald, L. Sommer, A. Schumann, J. Beyerer, and R. Stiefelhagen, “UAV-Net: A fast aerial vehicle detector for mobile platforms,” in Proc. IEEE/CVF Conf. Comput. Vis. Pattern Recognit. Workshops (CVPRW), Long Beach, CA, USA, 2019, pp. 544–552. © 2014 IEEE.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - BOOK
@@ -1759,7 +1547,7 @@ KW  - Semantic relationships
 KW  - Text to speech
 KW  - Visual studios
 KW  - Speech recognition
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1789,7 +1577,7 @@ KW  - Quickcheck
 KW  - Type errors
 KW  - Typechecking
 KW  - Model checking
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1817,7 +1605,7 @@ KW  - Refined highway
 KW  - Switching modules
 KW  - XLNet
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -1846,7 +1634,7 @@ KW  - Software bug
 KW  - Software defects
 KW  - Computational linguistics
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1876,7 +1664,7 @@ KW  - Technical advancement
 KW  - User-centred
 KW  - Vignette study
 KW  - Human robot interaction
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -1891,7 +1679,7 @@ KW  - Perineurioma
 KW  - Peripheral nerve sheath tumors
 KW  - Synthetic patch generation
 KW  - Whole-slide images
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1920,7 +1708,7 @@ KW  - Localization technique
 KW  - Primary objective
 KW  - Real-world
 KW  - Graphic methods
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -1950,7 +1738,7 @@ KW  - Language model
 KW  - Multistage process
 KW  - Performance
 KW  - Multi agent systems
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -1978,7 +1766,7 @@ KW  - Software-Reliability
 KW  - Transformer
 KW  - Unified solutions
 KW  - Software reliability
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2008,7 +1796,7 @@ KW  - Open-vocabulary object detection
 KW  - Retrieval-augmentation
 KW  - Visual feature
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2041,14 +1829,14 @@ KW  - Software security
 KW  - Transformer modeling
 KW  - Vulnerability detection
 KW  - Static analysis
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - label.ris.referenceType.CONFERENCE_REVIEW.p
 TI  - Proceedings - 2025 IEEE/ACM International Workshop on Large Language Models for Code, LLM4Code 2025
 UR  - https://www.scopus.com/pages/publications/105009158066?origin=resultslist
 AB  - The proceedings contain 28 papers. The topics discussed include: SC-Bench: a large-scale dataset for smart contract auditing; deriving coding-specific sub-models from LLMs using resource-efficient pruning; RepairBench: leaderboard of frontier models for program repair; with a little help from my (LLM) friends: enhancing static analysis with LLMs to detect software vulnerabilities; automating the detection of code vulnerabilities by analyzing GitHub issues; from zero to sixty at the speed of RAG: improving YAML recipe generation via retrieval; SC-Bench: a large-scale dataset for smart contract auditing; training LLMs for generating IEC 61131-3 structured text with online feedback; and LLM-ProS: analyzing large language models' performance in competitive problem solving.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2095,7 +1883,7 @@ KW  - Self-evolving agent
 KW  - Software development automation
 KW  - Tool augmented LLM
 KW  - Software design
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2124,7 +1912,7 @@ KW  - Software vulnerabilities
 KW  - Structured knowledge
 KW  - Vulnerability
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -2153,7 +1941,7 @@ KW  - Multi methods
 KW  - Multi-method bug
 KW  - Repair techniques
 KW  - Heuristic methods
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -2182,7 +1970,7 @@ KW  - Multi-views
 KW  - Political bias
 KW  - Pre-training
 KW  - Probes
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -2207,7 +1995,7 @@ KW  - Language model
 KW  - Machine-learning
 KW  - Model-driven
 KW  - Decision making
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2230,7 +2018,7 @@ KW  - Open-source
 KW  - Specific tool
 KW  - State-of-the-art coding
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -2264,7 +2052,7 @@ KW  - Test errors
 KW  - Test generations
 KW  - Unit test generations
 KW  - Black-box testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2289,7 +2077,7 @@ KW  - Prompt tuning
 KW  - Software vulnerabilities
 KW  - Software vulnerability repair
 KW  - Large datasets
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2321,7 +2109,7 @@ KW  - Software release
 KW  - Sonarqube
 KW  - Source codes
 KW  - Static analysis
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2348,7 +2136,7 @@ KW  - Software metrics
 KW  - Software vulnerabilities
 KW  - Vulnerability detection
 KW  - C++ (programming language)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -2380,7 +2168,7 @@ KW  - Software codes
 KW  - Software defects
 KW  - Transfer learning
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -2392,7 +2180,7 @@ KW  - ChatGpt
 KW  - Debugger
 KW  - GPT-3.5
 KW  - Lamguage Model
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2426,7 +2214,7 @@ KW  - Large language model
 KW  - Semantic code search
 KW  - Semantic codes
 KW  - Software engineering
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2456,7 +2244,7 @@ KW  - Self-healing
 KW  - Software security
 KW  - Software vulnerabilities
 KW  - Formal verification
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2481,7 +2269,7 @@ KW  - Search queries
 KW  - System reliability
 KW  - Training process
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -2512,7 +2300,7 @@ KW  - Software organization
 KW  - Test case
 KW  - Transpilation
 KW  - Python
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2535,7 +2323,7 @@ KW  - Software vulnerabilities
 KW  - Vulnerability repair
 KW  - Efficiency
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2566,7 +2354,7 @@ KW  - matrix
 KW  - Test case
 KW  - Vulnerability detection
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2588,7 +2376,7 @@ KW  - Scaling-up
 KW  - Self repair
 KW  - Without fine-tuning
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -2615,7 +2403,7 @@ KW  - Program repair
 KW  - Shared-memory parallels
 KW  - Software-Reliability
 KW  - Industrial research
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -2641,14 +2429,14 @@ KW  - Repair techniques
 KW  - Template learning
 KW  - Template-based
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - label.ris.referenceType.CONFERENCE_REVIEW.p
 TI  - SPLASH Companion 2023 - Companion Proceedings of the 2023 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity
 UR  - https://www.scopus.com/pages/publications/85178327583?origin=resultslist
 AB  - The proceedings contain 26 papers. The topics discussed include: remote just-in-time compilation for dynamic languages; scaling up program synthesis to efficient algorithms; large language models for automated program repair; transforming ideas into code: visual sketching for ml development; semantic versioning for python programs; reusing single-language analyses for static analysis of multi-language programs; a pragmatic approach to syntax repair; partial gradual dependent type theory; synthesizing recursive programs through dataflow constraints; modular educational languages; historiographer: strongly-consistent distributed reactive programming with minimal locking; clearing the trail: motivations for maintenance work in open source; towards the formal verification of Wigderson’s algorithm; and involving users in design of a widely used language: a case of ECMAScript (JavaScript) standardization.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -2674,7 +2462,7 @@ KW  - Patch qualities
 KW  - Software patches
 KW  - Training dataset
 KW  - Program translators
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2686,7 +2474,7 @@ KW  - Automated Bug
 KW  - Natural Language Processing
 KW  - Report Classification
 KW  - Software Repository
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2733,7 +2521,7 @@ KW  - Large language model
 KW  - Multiagent systems (MASs)
 KW  - Software engineering automation
 KW  - Software design
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -2766,7 +2554,7 @@ KW  - Language model
 KW  - Large language model
 KW  - Quality
 KW  - Image quality
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -2793,7 +2581,7 @@ KW  - Open-ended object detection
 KW  - Text generations
 KW  - Uncertainty
 KW  - Object detection
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -2842,7 +2630,7 @@ KW  - human
 KW  - metabolism
 KW  - molecular model
 KW  - procedures
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2860,7 +2648,7 @@ KW  - Patch based
 KW  - Sequence encoding
 KW  - Tracking index
 KW  - Computational linguistics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2890,7 +2678,7 @@ KW  - Retrieval-augmented generation
 KW  - Search-based
 KW  - Software-Reliability
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2913,7 +2701,7 @@ KW  - Return value
 KW  - State-of-the-art approach
 KW  - Two-state
 KW  - Errors
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2937,7 +2725,7 @@ KW  - Objects detection
 KW  - Performance
 KW  - Slow convergences
 KW  - Personnel training
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2964,7 +2752,7 @@ KW  - Test case generation
 KW  - Trust
 KW  - Trust metrics
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -2986,7 +2774,7 @@ KW  - Student learning
 KW  - Student Modeling
 KW  - Traditional models
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3014,7 +2802,7 @@ KW  - Security-critical
 KW  - Software vulnerabilities
 KW  - Vulnerability patching
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3037,7 +2825,7 @@ KW  - Large language model
 KW  - Simple++
 KW  - Test case
 KW  - Python
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - label.ris.referenceType.BOOK_CHAPTER
@@ -3050,7 +2838,7 @@ KW  - Code LLM
 KW  - Code repair
 KW  - Large language model
 KW  - Vulnerability
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - BOOK
@@ -3076,14 +2864,14 @@ KW  - System building
 KW  - Technical frameworks
 KW  - Threats and vulnerabilities
 KW  - Compliance control
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
 TI  - CODEMMLU: A MULTI-TASK BENCHMARK FOR ASSESSING CODE UNDERSTANDING & REASONING CAPABILITIES OF CODELLMS
 UR  - https://www.scopus.com/pages/publications/105010208859?origin=resultslist
 AB  - Recent advances in Code Large Language Models (CodeLLMs) have primarily focused on open-ended code generation, often overlooking the crucial aspect of code understanding & reasoning. To bridge this gap, we introduce CodeMMLU, a comprehensive multiple-choice benchmark designed to evaluate the depth of software and code comprehension in LLMs. CodeMMLU includes nearly 20,000 questions spanning diverse domains, including code analysis, defect detection, and software engineering principles across multiple programming languages. Unlike traditional benchmarks that emphasize code generation, CodeMMLU assesses a model's ability to reason about programs across a wide-range of tasks such as code repair, execution reasoning, and fill-in-the-blank challenges. Our extensive evaluation reveals that even state-of-the-art models struggle with CodeMMLU, highlighting significant gaps in comprehension beyond generation. By emphasizing the essential connection between code understanding and effective AI-assisted development, CodeMMLU provides a critical resource for advancing more reliable and capable coding assistants. CodeMMLU is publicly available at: CodeMMLU. © 2025 13th International Conference on Learning Representations, ICLR 2025. All rights reserved.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3107,7 +2895,7 @@ KW  - Scene-adaptive prompt
 KW  - Text input
 KW  - Vision model
 KW  - Object recognition
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3135,7 +2923,7 @@ KW  - Llm agent
 KW  - Model agents
 KW  - Specification inferences
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3165,7 +2953,7 @@ KW  - Test case generators
 KW  - Unit testing
 KW  - Unit tests
 KW  - Pipelines
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3199,7 +2987,7 @@ KW  - Natural languages
 KW  - Pruning
 KW  - Sustainable AI
 KW  - Economic and social effects
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3223,7 +3011,7 @@ KW  - Small inputs
 KW  - Source codes
 KW  - Transformer modeling
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3247,7 +3035,7 @@ KW  - Empirical analysis
 KW  - Language model
 KW  - Large language model
 KW  - Software design
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3277,7 +3065,7 @@ KW  - Materials design
 KW  - Quality issues
 KW  - UI designs
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -3303,7 +3091,7 @@ KW  - Software bug
 KW  - State of the art
 KW  - Test case
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -3345,7 +3133,7 @@ KW  - Neural code intelligence
 KW  - Performance
 KW  - Program synthesis
 KW  - Software design
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3368,7 +3156,7 @@ KW  - Large language model
 KW  - Self-negotiation
 KW  - Vulnerability detection
 KW  - Software engineering
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -3394,7 +3182,7 @@ KW  - Task analysis
 KW  - Transfer learning
 KW  - Vulnerability repair
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -3427,7 +3215,7 @@ KW  - Patch generation
 KW  - Software defects
 KW  - Software-systems
 KW  - Software design
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3455,7 +3243,7 @@ KW  - Research efforts
 KW  - Research fields
 KW  - Software debugging
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3482,7 +3270,7 @@ KW  - Repair methods
 KW  - Repair techniques
 KW  - Tree of thought
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -3511,7 +3299,7 @@ KW  - Program repair
 KW  - Programming education
 KW  - Programming profession
 KW  - Students
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3549,7 +3337,7 @@ KW  - Github copilot
 KW  - Leetcode
 KW  - Problem-solving
 KW  - Problem solving
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3573,7 +3361,7 @@ KW  - Model inputs
 KW  - Project levels
 KW  - Repair models
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3595,7 +3383,7 @@ KW  - Source codes
 KW  - Test case
 KW  - Thompson samplings
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -3636,7 +3424,7 @@ KW  - mitigation
 KW  - nonhuman
 KW  - retrieval augmented generation
 KW  - Deep neural networks
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3662,7 +3450,7 @@ KW  - Repair methods
 KW  - Resource requirements
 KW  - Small language model
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3688,7 +3476,7 @@ KW  - Performance
 KW  - Prompt engineering
 KW  - Self-directed
 KW  - Chains
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3712,7 +3500,7 @@ KW  - Self-training
 KW  - Semantics understanding
 KW  - Time behavior
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3738,7 +3526,7 @@ KW  - Large language model
 KW  - Pre-trained model
 KW  - Programming language processing
 KW  - Computational linguistics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -3762,7 +3550,7 @@ KW  - Repair models
 KW  - Software bug
 KW  - Systematic literature review
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3793,7 +3581,7 @@ KW  - Quality detection
 KW  - RL
 KW  - SFT
 KW  - Automotive industry
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -3824,7 +3612,7 @@ KW  - Self repairing
 KW  - Unified framework
 KW  - Multi agent systems
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3850,7 +3638,7 @@ KW  - Type errors
 KW  - Typechecking
 KW  - Warning messages
 KW  - Python
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -3875,7 +3663,7 @@ KW  - Loss functions
 KW  - Model-based OPC
 KW  - Repair models
 KW  - C (programming language)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -3905,7 +3693,7 @@ KW  - Program repair
 KW  - Real-world
 KW  - Software development and maintenances
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3925,7 +3713,7 @@ KW  - On potentials
 KW  - Potential threats
 KW  - Test generations
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -3956,7 +3744,7 @@ KW  - Repair techniques
 KW  - Software Specification
 KW  - Template-based
 KW  - Alloying
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -3969,7 +3757,7 @@ KW  - Code repair
 KW  - Masked diffusion models
 KW  - Structured code generation
 KW  - Syntax-aware masking
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -3987,7 +3775,7 @@ KW  - Textual data
 KW  - Two-phase process
 KW  - Visual data
 KW  - Application programs
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -4017,7 +3805,7 @@ KW  - Software Evolution
 KW  - Software process
 KW  - Traceability
 KW  - Natural language processing systems
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4045,7 +3833,7 @@ KW  - Program repair
 KW  - Software Quality
 KW  - Spectra's
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4066,7 +3854,7 @@ KW  - Single-step
 KW  - Small scale
 KW  - Test case
 KW  - Computational linguistics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -4098,7 +3886,7 @@ KW  - Refactorings
 KW  - Role-based
 KW  - Transformation rules
 KW  - Specifications
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4124,7 +3912,7 @@ KW  - Simple++
 KW  - Software vulnerabilities
 KW  - Vulnerability fixing
 KW  - Machine learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4153,7 +3941,7 @@ KW  - Software productivity
 KW  - Software verification
 KW  - Verification-aware language
 KW  - Verification
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4184,14 +3972,14 @@ KW  - Program bugs
 KW  - Quixbug
 KW  - State of the art
 KW  - Python
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - label.ris.referenceType.CONFERENCE_REVIEW.p
 TI  - Proceedings - 2025 IEEE International Conference on Software Analysis, Evolution and Reengineering, SANER 2025
 UR  - https://www.scopus.com/pages/publications/105007288310?origin=resultslist
 AB  - The proceedings contain 89 papers. The topics discussed include: how effective are large language models in generating software specifications?; towards Using LLMs in the reverse engineering of software systems to object constraint language; evaluating multi-modal LLMs for automatically recognizing semantic elements in UML use case diagram images; reduce before you repair: advantages of combining program slicing with automated program repair; reduce before you repair: advantages of combining program slicing with automated program repair; an ensemble learning method based on neighborhood granularity discrimination index and its application in software defect prediction; and generating and contributing test cases for C libraries from client code: a case study.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -4219,7 +4007,7 @@ KW  - Fine grained
 KW  - Reliability and stability
 KW  - Test case
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -4294,7 +4082,7 @@ KW  - pH
 KW  - procedures
 KW  - solubility
 KW  - X ray diffraction
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4318,7 +4106,7 @@ KW  - Llm
 KW  - Software developer
 KW  - Software evaluation
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4343,7 +4131,7 @@ KW  - Natural languages
 KW  - Performance
 KW  - Pre-training
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4365,7 +4153,7 @@ KW  - Non linear
 KW  - Reproducibilities
 KW  - User study
 KW  - High level languages
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4395,7 +4183,7 @@ KW  - Localisation
 KW  - Neural-networks
 KW  - Traditional approachs
 KW  - Deep neural networks
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4420,7 +4208,7 @@ KW  - Management process
 KW  - Root cause
 KW  - Superficial defects
 KW  - Computational linguistics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -4454,7 +4242,7 @@ KW  - Paint defects
 KW  - Process decisions
 KW  - Paint
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4483,7 +4271,7 @@ KW  - Repair techniques
 KW  - Repair technology
 KW  - Software maintenance costs
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4513,7 +4301,7 @@ KW  - Software-systems
 KW  - Traditional approaches
 KW  - Traditional approachs
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4546,7 +4334,7 @@ KW  - Syntax-aware attention
 KW  - Transformer
 KW  - Repair
 KW  - Syntactics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -4559,14 +4347,14 @@ KW  - Codegeneration
 KW  - Language model
 KW  - Model-based OPC
 KW  - Software complexity
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - label.ris.referenceType.CONFERENCE_REVIEW.p
 TI  - ESEC/FSE 2023 - Proceedings of the 31st ACM Joint Meeting European Software Engineering Conference and Symposium on the Foundations of Software Engineering
 UR  - https://www.scopus.com/pages/publications/85180795696?origin=resultslist
 AB  - The proceedings contain 203 papers. The topics discussed include: a four-year study of student contributions to OSS vs. oss4sg with a lightweight intervention; how early participation determines long-term sustained activity in GitHub projects?; matching skills, past collaboration, and limited competition: modeling when open-source projects attract contributors; accelerating continuous integration with parallel batch testing; DistXplore: distribution-guided testing for evaluating and enhancing deep learning systems; CAmpactor: a novel and effective local search algorithm for optimizing pairwise covering arrays; design by contract for deep learning APIs; testing coreference resolution systems without labeled test sets; neural-based test oracle generation: a large-scale evaluation and lessons learned; revisiting neural program smoothing for fuzzing; RAP-Gen: retrieval-augmented patch generation with CodeT5 for automatic program repair; from leaks to fixes: automated repairs for resource leak warnings; and copiloting the copilots: fusing large language models with completion engines for automated program repair.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4592,14 +4380,14 @@ KW  - Root cause
 KW  - Security and reliabilities
 KW  - Software-systems
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - label.ris.referenceType.CONFERENCE_REVIEW.p
 TI  - ICAIAgent 2026 - 2026 International Conference on Artificial Intelligence and Agents
 UR  - https://www.scopus.com/pages/publications/105042433533?origin=resultslist
 AB  - The proceedings contain 10 papers. The topics discussed include: guideline-grounded retrieval-augmented generation for ophthalmic clinical decision support; practice and development of large language model in command and control; process sequence augmentation based on user event logs by integrating transformer and LSTM; text-to-SQL agent: an iterative question rewriting framework based on reinforcement learning; research on mammographic mass classification based on improved stacking algorithm; LLM-assisted knowledge graph construction and dual-layer reasoning for defect repair planning: a Neo4j-based demo; FedMBRL: federated memory bank reinforcement learning for multi-agent edge caching in industrial IoT; multi-relation temporal graph neural networks for equity volatility forecasting; CMEF-DSD: collaborative multi-expert forecasting with differentiable scale decomposition; and review on the development of UAV cluster intelligent cooperative control.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4621,7 +4409,7 @@ KW  - Specific information
 KW  - State-of-the-art performance
 KW  - Two domains
 KW  - Surgery
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4651,7 +4439,7 @@ KW  - Large language model
 KW  - Model-based OPC
 KW  - Software vulnerabilities
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -4664,7 +4452,7 @@ KW  - Chain-of-thought prompting
 KW  - Large language models
 KW  - Quixbugs
 KW  - Standard prompting
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4686,7 +4474,7 @@ KW  - Localisation
 KW  - Model agents
 KW  - Software problems
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4710,7 +4498,7 @@ KW  - Quality improvement
 KW  - Real-world
 KW  - Simple++
 KW  - Life cycle
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4734,7 +4522,7 @@ KW  - Software bug
 KW  - State-of-the-art performance
 KW  - Training corpus
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4758,7 +4546,7 @@ KW  - Performance
 KW  - Program size
 KW  - Source codes
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4787,7 +4575,7 @@ KW  - Prompt engineering
 KW  - Recent researches
 KW  - Selection problems
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -4818,7 +4606,7 @@ KW  - Pre-trained model
 KW  - Predictive models
 KW  - Task analysis
 KW  - Feature extraction
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4850,7 +4638,7 @@ KW  - Model agents
 KW  - Optimisations
 KW  - Token optimization
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4876,7 +4664,7 @@ KW  - Language model
 KW  - Real-world scenario
 KW  - Systems development life cycle
 KW  - Life cycle
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4903,7 +4691,7 @@ KW  - Repair techniques
 KW  - Semantic gap
 KW  - State of the art
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4938,7 +4726,7 @@ KW  - Software vulnerabilities
 KW  - Vulnerability detection
 KW  - Vulnerability remediations
 KW  - Reinforcement learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4952,7 +4740,7 @@ KW  - Model-Based Development
 KW  - Retrieval-Augmented Generation
 KW  - Simulink
 KW  - Software Debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -4976,7 +4764,7 @@ KW  - Repair program
 KW  - Repair system
 KW  - Search spaces
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -5009,7 +4797,7 @@ KW  - Program analysis
 KW  - Programming assignments
 KW  - Programming education
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5041,7 +4829,7 @@ KW  - Multidimensional benchmark
 KW  - Programming education
 KW  - Programming education evaluation
 KW  - C (programming language)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5066,14 +4854,14 @@ KW  - Program semantics
 KW  - Semantic-aware
 KW  - Source codes
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
 TI  - 24th Mexican International Conference on Artificial Intelligence, MICAI 2025
 UR  - https://www.scopus.com/pages/publications/105024460760?origin=resultslist
 AB  - The proceedings contain 32 papers. The special focus in this conference is on Artificial Intelligence. The topics include: Stochastic Harmonic Fields for Safe Robot Navigation in Dynamic Environments; Real-Time Passenger Feedback for Public Transport Optimization Using NLP and Multi-agent RL; MICAI and the Making of AI in Mexico Through 25 Years of Data-Driven Insight; A Dynamic Penalty Approach in MOEA/D for Constraint Handling in Multi-objective Problems; urban Crop Coefficient Estimation for Outdoor Water Management Using Machine Learning; towards a Distributed-Based Learning Robot from Scratch via Neuro-Evolutionary Computation; Beyond SWE-Bench: A Compiler-Assisted Pipeline for Multi-language Automated Program Repair; advanced Parameter Extraction for Photovoltaic Cells Using the Black-Winged Kite Algorithm; topological Data Analysis and Convolutional Neural Networks for Gravitational Wave Detection; data-Driven Power Time Series Imputation Using Cumulative Pattern Matching; day-Night Crime Transmission Networks for Temporal Urban Analysis; Rethinking GAN-BERT for Sensitive Text Classification: The Impact of Training Dynamics and Domain Alignment in Low-Data Scenarios; Limits and Surprises of Cross-Lingual BERT Under Data Scarcity: A Portuguese Case Study in Sensitive-Text Classification; recognition of Bee Organizational Behavior with Scene Graphs Generation; sign Language Recognition Using Video, Skeleton Data and Deep Learning; improving Tomosynthesis Sinograms via Particle Swarm Optimization; classification of Foliar Diseases in Tomato Crops Using Convolutional Neural Networks; sign Language Recognition and Translation with Large Multimodal Models. A Systematic Review; electrical Impedance Mammography Image Fusion Using the Gaussian Pyramid Method for Binary Classification; Shadow Attenuation in UAV Multispectral Imaging for Enhanced Agave Segmentation; From Keyframes to Narrative: A Multi-stage AI Pipeline for Scene Understanding Using Object Detection and Large Language Models; volume Estimation of Travertine Blocks Using Keypoint Detection and Homography from Monocular Video; automated Ergonomic Risk Assessment in Offices Using Computer Vision-Based Activity Recognition.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5094,7 +4882,7 @@ KW  - Software robustness
 KW  - State constraints
 KW  - Test case
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5125,7 +4913,7 @@ KW  - Topological graph modeling
 KW  - Topological graphs
 KW  - Two stage optimizations
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5149,7 +4937,7 @@ KW  - NP-hard
 KW  - Program repair
 KW  - Program state
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - label.ris.referenceType.BOOK_CHAPTER
@@ -5161,7 +4949,7 @@ KW  - Automatic program repair
 KW  - Machine learning
 KW  - Software construction
 KW  - Systematic literature mapping
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5183,7 +4971,7 @@ KW  - Power Optimization
 KW  - Power performance
 KW  - Register-transfer level
 KW  - Local search (optimization)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5215,7 +5003,7 @@ KW  - Problem description
 KW  - Program generation
 KW  - Software Quality
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5239,7 +5027,7 @@ KW  - Software security
 KW  - State of the art
 KW  - Vulnerability detection
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -5268,7 +5056,7 @@ KW  - Program invariants
 KW  - Test case
 KW  - Validation test
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5297,7 +5085,7 @@ KW  - Prompt engineering
 KW  - Systematic methodology
 KW  - Web development
 KW  - Iterative methods
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -5329,7 +5117,7 @@ KW  - Quantisation
 KW  - Rule-based approach
 KW  - Template-based approaches
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5355,7 +5143,7 @@ KW  - Repair process
 KW  - Syntax errors
 KW  - Teachers'
 KW  - Computational linguistics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -5366,7 +5154,7 @@ AB  - In the realm of software development, automated program repair (APR) emerg
 KW  - automated program repair
 KW  - code debugging
 KW  - large language models of code
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5394,7 +5182,7 @@ KW  - Programming education
 KW  - Timely feedback
 KW  - Tuning strategy
 KW  - Automatic programming
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5430,7 +5218,7 @@ KW  - Language model
 KW  - Large language model
 KW  - Similarity-based evaluation
 KW  - Syntactics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5456,7 +5244,7 @@ KW  - Performance
 KW  - Personal privacy
 KW  - Search spaces
 KW  - Object detection
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -5486,7 +5274,7 @@ KW  - Programming tasks
 KW  - Reasoning tasks
 KW  - Semantic reasoning
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -5518,7 +5306,7 @@ KW  - Language model
 KW  - Large language model
 KW  - Test case
 KW  - Integration testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5548,7 +5336,7 @@ KW  - Software Evolution
 KW  - Software repositories
 KW  - Video-games
 KW  - Time series analysis
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -5582,7 +5370,7 @@ KW  - Pre-training
 KW  - Repair strategy
 KW  - Repair tools
 KW  - C++ (programming language)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5611,7 +5399,7 @@ KW  - Software development life-cycle
 KW  - Static analyze
 KW  - Static analyzers
 KW  - Static analysis
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5637,7 +5425,7 @@ KW  - Language model
 KW  - Model-driven
 KW  - Optimization project
 KW  - High level synthesis
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -5670,7 +5458,7 @@ KW  - Performance
 KW  - Retrieval-augmented generation
 KW  - Transformer
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -5695,7 +5483,7 @@ KW  - Program repair
 KW  - Repair tools
 KW  - State of the art
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5727,14 +5515,14 @@ KW  - System on chips design
 KW  - System-on-chip security
 KW  - Systems-on-Chip
 KW  - System-on-chip
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
 TI  - Proceedings - 2024 50th Euromicro Conference on Software Engineering and Advanced Applications, SEAA 2024
 UR  - https://www.scopus.com/pages/publications/85218836535?origin=resultslist
 AB  - The proceedings contain 74 papers. The topics discussed include: context-oriented programming and modeling in Julia with context petri nets; scenario-based field testing of drone missions; model-based reliability, availability, and maintainability analysis for satellite systems with collaborative maneuvers via stochastic games; incentivizing fairness in autonomous ecosystems; static timing analysis of cyber-physical systems with relaxed real-time constraints; hierarchical digital twin ecosystem for industrial manufacturing scenarios; dynamics-based identification of hybrid systems using symbolic regression; analyzing the potency of pretrained transformer models for automated program repair; and experimentation in software ecosystems: a systematic literature review.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5762,7 +5550,7 @@ KW  - Open-source
 KW  - Parameter spaces
 KW  - Performance
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5782,7 +5570,7 @@ KW  - Language model
 KW  - Multiple iterations
 KW  - RTL designs
 KW  - Computer viruses
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -5808,7 +5596,7 @@ KW  - Representation learning
 KW  - Short term memory
 KW  - Source codes
 KW  - Automatic programming
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5841,7 +5629,7 @@ KW  - Large language model
 KW  - Multiple dimensions
 KW  - Quality codes
 KW  - Static analysis
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -5871,7 +5659,7 @@ KW  - Language model
 KW  - Performance
 KW  - Syntax tree
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5900,7 +5688,7 @@ KW  - Security risks
 KW  - Software vulnerabilities
 KW  - Vulnerability patching
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -5931,7 +5719,7 @@ KW  - Semantic features
 KW  - Software defects
 KW  - Software development and maintenances
 KW  - Forecasting
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -5943,7 +5731,7 @@ KW  - explainability
 KW  - foundation model
 KW  - retrieval strategy
 KW  - software code vulnerability
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5967,7 +5755,7 @@ KW  - Similarity retrieval
 KW  - State of the art
 KW  - Static and dynamic analysis
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -5990,7 +5778,7 @@ KW  - Programming tasks
 KW  - Repair techniques
 KW  - Repair tools
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -6023,7 +5811,7 @@ KW  - human
 KW  - noise
 KW  - spoofing attack
 KW  - Face recognition
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -6067,7 +5855,7 @@ KW  - Language model
 KW  - Large language model
 KW  - Safety critical systems
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -6132,7 +5920,7 @@ KW  - artificial intelligence
 KW  - natural language processing
 KW  - psychology
 KW  - university
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6154,7 +5942,7 @@ KW  - Small data set
 KW  - Transformer
 KW  - Transformer modeling
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6180,7 +5968,7 @@ KW  - Software bug
 KW  - System reliability
 KW  - Users' experiences
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6206,7 +5994,7 @@ KW  - Software bug
 KW  - Software repositories
 KW  - Sources of informations
 KW  - Graphical user interfaces
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -6235,7 +6023,7 @@ KW  - Repair process
 KW  - Semantic constraints
 KW  - Target programming language
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6264,7 +6052,7 @@ KW  - Llm-agent
 KW  - Model-based OPC
 KW  - Natural languages
 KW  - Trajectories
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6305,7 +6093,7 @@ KW  - Novice programmer
 KW  - Programming education
 KW  - Tutoring system
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6331,7 +6119,7 @@ KW  - Software vulnerabilities
 KW  - Systematic evaluation
 KW  - Vulnerability detection
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6371,7 +6159,7 @@ KW  - Pattern code
 KW  - Real-world
 KW  - Software development agent
 KW  - Autonomous agents
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6399,7 +6187,7 @@ KW  - Robustness metrics
 KW  - Test case generation
 KW  - Transformer
 KW  - Benchmarking
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -6415,7 +6203,7 @@ KW  - Autonomous projects
 KW  - Bug-fixing
 KW  - Language model
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6437,7 +6225,7 @@ KW  - Search process
 KW  - Search-based
 KW  - Unit tests
 KW  - Computational linguistics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -6466,14 +6254,14 @@ KW  - Real-world
 KW  - Space programs
 KW  - User spaces
 KW  - Linux
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - label.ris.referenceType.CONFERENCE_REVIEW.p
 TI  - Proceedings - 2025 IEEE/ACM International Workshop on Automated Program Repair, APR 2025
 UR  - https://www.scopus.com/pages/publications/105009592593?origin=resultslist
 AB  - The proceedings contain 8 papers. The topics discussed include: studying and understanding the effectiveness and failures of conversational LLM-based repair; memorization in LLM-based program repair; bogus bugs, duplicates, and revealing comments: data quality issues in NPR; current challenges in automated multi-fault program repair; which inputs trigger my patch?; can GPT-O1 kill all bugs? an evaluation of GPT-family LLMs on QuixBugs; Scholia - an XAI framework for APR; FusionRepair: iterative multi-line APR via fusion; towards unveiling vulnerability remediation tactics from OSS community; and simple fault localization using execution traces.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6500,7 +6288,7 @@ KW  - Solidity language evolution
 KW  - Repair
 KW  - Semantics
 KW  - Systematic errors
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6521,7 +6309,7 @@ KW  - Student enrollments
 KW  - Student project
 KW  - Symbolic semantics
 KW  - Zero-shot learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6544,7 +6332,7 @@ KW  - Prompt engineering
 KW  - Semantics Information
 KW  - Source codes
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6571,7 +6359,7 @@ KW  - Project management tools
 KW  - Solution designs
 KW  - Three categories
 KW  - Project management
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -6609,7 +6397,7 @@ KW  - Programming performance
 KW  - Source code representations
 KW  - Source codes
 KW  - Deep neural networks
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6637,7 +6425,7 @@ KW  - Performance
 KW  - Real-world
 KW  - Repair tools
 KW  - Android (operating system)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -6668,7 +6456,7 @@ KW  - Large language model
 KW  - Software Quality
 KW  - Testing codes
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -6697,14 +6485,14 @@ KW  - Runtimes
 KW  - Self-evolving large model
 KW  - Semantic diffusion
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - label.ris.referenceType.CONFERENCE_REVIEW.p
 TI  - Proceedings - 2025 IEEE International Conference on Software Maintenance and Evolution, ICSME 2025
 UR  - https://www.scopus.com/pages/publications/105022507202?origin=resultslist
 AB  - The proceedings contain 102 papers. The topics discussed include: toward realistic evaluations of just-in-time vulnerability prediction; performance testing in open-source web projects: adoption, maintenance, and a change taxonomy; evaluating the maintainability of forward-porting vulnerabilities in Fuzzer benchmarks; refactoring deep learning code: a study of practices and unsatisfied tool needs; SAEL: leveraging large language models with adaptive mixture-of-experts for smart contract vulnerability detection; boosting redundancy-based automated program repair by fine-grained pattern mining; and code property graph meets Typestate: a scalable framework to behavioral bug detection.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6734,7 +6522,7 @@ KW  - Performance
 KW  - Subsequent edit prediction
 KW  - Tool-based deduction
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6759,7 +6547,7 @@ KW  - Low-rank adaptation
 KW  - Parameter-efficient fine-tuning
 KW  - Quantized low-rank adaptation
 KW  - Tuning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6792,7 +6580,7 @@ KW  - Language model
 KW  - Large language model
 KW  - Ontology's
 KW  - Ontology
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6821,7 +6609,7 @@ KW  - Security codes
 KW  - Security issues
 KW  - Software vulnerabilities
 KW  - Multi agent systems
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6850,7 +6638,7 @@ KW  - Repair phasis
 KW  - Similarity metrics
 KW  - Text similarity
 KW  - Genetic programming
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6882,7 +6670,7 @@ KW  - Reasoning
 KW  - Static power
 KW  - Verilog code
 KW  - Chains
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -6910,7 +6698,7 @@ KW  - Software engineering research
 KW  - Temperature analysis
 KW  - Test case generation
 KW  - Stochastic systems
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -6937,7 +6725,7 @@ KW  - Natural languages
 KW  - Pre-trained large language model
 KW  - Software testings
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6967,7 +6755,7 @@ KW  - Parameter-efficient fine-tuning
 KW  - Performance
 KW  - Tools and techniques
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -6998,7 +6786,7 @@ KW  - Mask templates
 KW  - Model templates
 KW  - Patch generation
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -7024,7 +6812,7 @@ KW  - Mutation testing
 KW  - Test generations
 KW  - Test inputs
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7047,7 +6835,7 @@ KW  - Program synthesis
 KW  - Semantics Information
 KW  - Structural information
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7073,7 +6861,7 @@ KW  - Punctuation restoration
 KW  - Slot tagging
 KW  - Tagging problem
 KW  - Contrastive Learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7094,7 +6882,7 @@ KW  - Repair methods
 KW  - Repair techniques
 KW  - Software-systems
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7127,7 +6915,7 @@ KW  - Large language model
 KW  - Property
 KW  - SVA
 KW  - Formal verification
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7157,7 +6945,7 @@ KW  - Large language model
 KW  - Repair techniques
 KW  - Source codes
 KW  - Software quality
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7188,7 +6976,7 @@ KW  - Real-world
 KW  - Retrieval-augmented generation
 KW  - Standard libraries
 KW  - Software design
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7211,7 +6999,7 @@ KW  - Language model
 KW  - Large language model
 KW  - Learning-based approach
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7239,7 +7027,7 @@ KW  - Repair system
 KW  - Search-based
 KW  - Software patches
 KW  - Benchmarking
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7265,7 +7053,7 @@ KW  - Language model
 KW  - Type errors
 KW  - Type systems
 KW  - Errors
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7291,7 +7079,7 @@ KW  - Repair techniques
 KW  - Software bug
 KW  - State of the art
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7320,7 +7108,7 @@ KW  - Repair methods
 KW  - Repair techniques
 KW  - Source codes
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -7350,7 +7138,7 @@ KW  - Software security
 KW  - Source codes
 KW  - Template-based approaches
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -7384,7 +7172,7 @@ KW  - Software testings
 KW  - State of research
 KW  - Systematic literature review
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7409,7 +7197,7 @@ KW  - S function
 KW  - Task type
 KW  - Time consumption
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7434,7 +7222,7 @@ KW  - Software bug
 KW  - Software development and maintenances
 KW  - Time-consuming tasks
 KW  - Knowledge graph
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -7466,7 +7254,7 @@ KW  - pathology
 KW  - proctectomy
 KW  - squamous cell carcinoma
 KW  - therapy
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -7497,7 +7285,7 @@ KW  - Program comprehension
 KW  - Program repair
 KW  - Syntactic errors
 KW  - Optical character recognition
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -7523,7 +7311,7 @@ KW  - Post-processing
 KW  - Post-processing for readability
 KW  - Pre-trained model
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -7551,7 +7339,7 @@ KW  - Patch overfitting
 KW  - Pre-trained model
 KW  - Training dataset
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7591,7 +7379,7 @@ KW  - Sequence models
 KW  - Sequence-to-sequence model
 KW  - Software-Reliability
 KW  - Software reliability
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -7620,7 +7408,7 @@ KW  - Rate predictions
 KW  - Reverse process
 KW  - Target detectors
 KW  - Object detection
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7652,7 +7440,7 @@ KW  - T5 model
 KW  - Text information extraction
 KW  - Transformer modeling
 KW  - Natural language processing systems
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -7665,7 +7453,7 @@ KW  - GI polyps
 KW  - High-grade dysplasia
 KW  - Tubular adenoma
 KW  - Whole-slide images
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -7688,7 +7476,7 @@ KW  - Security analysis
 KW  - Security implications
 KW  - Software-systems
 KW  - Application programming interfaces (API)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7720,7 +7508,7 @@ KW  - Program repair
 KW  - Runtimes
 KW  - Type errors
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7747,7 +7535,7 @@ KW  - Program repair
 KW  - Real-world
 KW  - Spatial proximity
 KW  - Benchmarking
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7777,7 +7565,7 @@ KW  - Program repair
 KW  - Software build
 KW  - Test case
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7807,7 +7595,7 @@ KW  - Pre-training
 KW  - Repair tools
 KW  - State of the art
 KW  - Computational linguistics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -7835,14 +7623,14 @@ KW  - Natural languages
 KW  - Performance
 KW  - Task analysis
 KW  - Natural language processing systems
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - label.ris.referenceType.CONFERENCE_REVIEW.p
 TI  - GPCE 2025 - Proceedings of the 24th ACM SIGPLAN International Conference on Generative Programming: Concepts and Experiences
 UR  - https://www.scopus.com/pages/publications/105013056010?origin=resultslist
 AB  - The proceedings contain 8 papers. The topics discussed include: CoCoCoLa: code completion control language; comparative analysis of pre-trained code language models for automated program repair via code infill generation; imperative program synthesis by abstract static analysis and SMT mutations; integrating static optimization and dynamic nature in JavaScript;; P4DDG: data-dependent grammars for packet specification and parsing in p4; retrofitting a virtual instrument DSL with programming abstractions; and a stable model semantics for eFLINT norm specifications and model checking scenarios.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7862,7 +7650,7 @@ KW  - Fine tuning
 KW  - Language model
 KW  - Performance
 KW  - Computational linguistics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -7873,7 +7661,7 @@ AB  - The substantial value held by smart contracts (SCs) makes them an enticing
 KW  - APR
 KW  - smart contract
 KW  - vulnerability
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -7903,14 +7691,14 @@ KW  - Performance
 KW  - Software debugging
 KW  - Source models
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
 TI  - CRAFTRTL: HIGH-QUALITY SYNTHETIC DATA GENERATION FOR VERILOG CODE MODELS WITH CORRECT-BY-CONSTRUCTION NON-TEXTUAL REPRESENTATIONS AND TARGETED CODE REPAIR
 UR  - https://www.scopus.com/pages/publications/105010201050?origin=resultslist
 AB  - Despite the significant progress made in code generation with large language models, challenges persist, especially with hardware description languages such as Verilog. This paper first presents an analysis of fine-tuned LLMs on Verilog coding, with synthetic data from prior methods. We identify two main issues: difficulties in handling non-textual representations (Karnaugh maps, state-transition diagrams and waveforms) and significant variability during training with models randomly making “minor” mistakes. To address these limitations, we enhance data curation by creating correct-by-construction data targeting non-textual representations. Additionally, we introduce an automated framework that generates error reports from various model checkpoints and injects these errors into open-source code to create targeted code repair data. Our fine-tuned Starcoder2-15B outperforms prior state-of-the-art results by 3.8%, 10.9%, 6.6% for pass@1 on VerilogEval-Machine, VerilogEval-Human, and RTLLM. © 2025 13th International Conference on Learning Representations, ICLR 2025. All rights reserved.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -7951,7 +7739,7 @@ KW  - Source codes
 KW  - Test execution
 KW  - Test failure
 KW  - Benchmarking
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -7986,7 +7774,7 @@ KW  - Software quality metrics
 KW  - Test failure
 KW  - Test failure analyze
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -8017,7 +7805,7 @@ KW  - Speech transcriptions
 KW  - Streamed data processing
 KW  - Textual features
 KW  - Restoration
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8048,7 +7836,7 @@ KW  - Multi-stages
 KW  - Security vulnerabilities
 KW  - Vulnerability repair
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -8080,7 +7868,7 @@ KW  - Quality of softwares
 KW  - Repair direction
 KW  - Software codes
 KW  - Computer software selection and evaluation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8111,7 +7899,7 @@ KW  - Open source communities
 KW  - Program maintenances
 KW  - Quality concerns
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8143,7 +7931,7 @@ KW  - Quantisation
 KW  - Quantized low-rank adaptation
 KW  - Resource-efficient
 KW  - Java programming language
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -8175,7 +7963,7 @@ KW  - Program synthesis
 KW  - Tight integrations
 KW  - Training data
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -8211,7 +7999,7 @@ KW  - software
 KW  - algorithm
 KW  - artificial neural network
 KW  - Decoding
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8237,7 +8025,7 @@ KW  - Program language model
 KW  - Repair technology
 KW  - Vulnerability repair
 KW  - Iterative methods
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8262,7 +8050,7 @@ KW  - Repair tools
 KW  - Semantics understanding
 KW  - Third parties
 KW  - Risk assessment
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8298,7 +8086,7 @@ KW  - Model-based OPC
 KW  - Simulation
 KW  - Software generation
 KW  - Verification
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -8327,7 +8115,7 @@ KW  - Performance
 KW  - Programming tasks
 KW  - Simple++
 KW  - Python
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8357,7 +8145,7 @@ KW  - Performance
 KW  - Software bug
 KW  - Software developer
 KW  - Benchmarking
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8383,7 +8171,7 @@ KW  - Semantic constraints
 KW  - Target programming language
 KW  - Writing projects
 KW  - Engines
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8412,7 +8200,7 @@ KW  - Real-world
 KW  - Retrieval augmented
 KW  - Retrieval strategies
 KW  - Benchmarking
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8446,7 +8234,7 @@ KW  - MERN
 KW  - Model agents
 KW  - Prompt analytic
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8475,7 +8263,7 @@ KW  - RAG
 KW  - Register-transfer level
 KW  - Via chain
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -8503,7 +8291,7 @@ KW  - Test case
 KW  - Test case generation
 KW  - Test generations
 KW  - Unit testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8538,21 +8326,21 @@ KW  - Large language model
 KW  - Multi agent
 KW  - Multiagent systems (MASs)
 KW  - Agents
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
 TI  - 4th International Conference on Advanced Security on Software and Systems, ASSS 2025
 UR  - https://www.scopus.com/pages/publications/105039870144?origin=resultslist
 AB  - The proceedings contain 10 papers. The special focus in this conference is on Advanced Security on Software and Systems. The topics include: CrossBuffer: Achieving Complete Atomicity for Cross-Chain Applications via Revocable State Buffering and Order-Preserving Conflict Resolution; enhancing Long-Range Security for Proof-of-Stake Consensus via Sampleable Verifiable Delay Functions; KG-Engine: A Compliance Evaluation Framework for Cryptographic Schemes Based on Ontology-Driven Knowledge Graphs; automated Program Repair Based on Large Language Model and Mask Templates; A NIC-Host Binding Method for Scalable Authentication via EEPROM Read/Write Access; a Data Storage and Playback System for Crowdsourced Cyber-Physical Integration Scenarios; BCFW: A Blockchain Consensus Firewall for Validator Intrusion Detection and Auditable Response; an Embedded-Assisted Secret Inspection Scheme in Untrusted Host Environments.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
 TI  - 27th International Symposium on Formal Methods, FM 2026
 UR  - https://www.scopus.com/pages/publications/105040725504?origin=resultslist
 AB  - The proceedings contain 68 papers. The special focus in this conference is on Formal Methods. The topics include: Maximum Realizability for LTL Modulo Theories; exact Moment Estimation of Stochastic Differential Dynamics; a Framework for the Interoperable Specification and Verification of Encapsulated Data Structures; Can LLM Aid in Solving Constraints with Inductive Definitions?; Fast SMT-Based Fault Tolerance Verification for Wide Area Networks; pacing Types for Asynchronous Stream Equations; Performance Heuristics for GR(1) Unrealizable Core Computation; a General Framework for Robust Quantitative Semantics of Signal Temporal Logic; quantitative Monitoring of Signal First-Order Logic; complexity of Consistency Testing for the Release-Acquire Semantics; towards Formally Verified Smart Contracts Compilation; selective Concolic Testing; EUF-based Solving Dyck-Reachability with Applications to Static Analysis; from Execution to Necessity: Proof-Based Metrics for Code Coverage (Short Paper); active Automata Learning with Noisy Data: From Big to Small Data; correct-by-Construction Dynamic Reachability: A Galois-Connected Approach to Bidirected Dyck Languages; digital Twins: a Briefing for Formalists; reasoning over Relaxed Shared Memory Models: A Tutorial; Requirements Elicitation, Formalization, and Analysis with FRET: A Tutorial; mixed Flow-Sensitive Static Analysis: Engineering Modularity; formally Explaining Neural Network Classification; The SLEEC Framework for Normative Requirements Engineering; probabilistic Model Checking Taken by Storm: A Tutorial on the Probabilistic Model Checker Storm; distributed Runtime Verification in Proximity-Based Networks: A Tutorial on the Aggregate Programming Approach; Verifiably UX Compliant and User-Intent Layout Generation (Extended Abstract); conFixer: Robustness Semantics Based Configuration Bug Fixing for Automated Driving Systems; Pragmatic Uses of AI in Formal Methods–Based Railway Projects: Early Lessons and Perspectives (Extended Abstract); formal Verification for Security Certification: From a First Success to Sustainable Industrial Usage; Shift-Left Requirements Verification: Integrating LLMs and Formal Methods for Automotive Systems; Formal Verification of Functional Correctness for the OpenHarmony LiteOS-M Kernel; Automated LTL Specification Generation from Industrial Aerospace Requirements.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8582,7 +8370,7 @@ KW  - Software vulnerabilities
 KW  - Vulnerability detection
 KW  - Automation
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -8614,7 +8402,7 @@ KW  - Performance
 KW  - Vulnerability fix
 KW  - Vulnerability localization
 KW  - Blockchain
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -8650,7 +8438,7 @@ KW  - Low-rank adaptation
 KW  - Parameter-efficient fine-tuning
 KW  - Specialisation
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8676,7 +8464,7 @@ KW  - Learning Based Models
 KW  - Metalearning
 KW  - Software bug
 KW  - Software design
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -8707,7 +8495,7 @@ KW  - Language model
 KW  - Large language model
 KW  - Software vulnerabilities
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8732,7 +8520,7 @@ KW  - Model-based OPC
 KW  - Potential risks
 KW  - Software defects
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -8760,7 +8548,7 @@ KW  - Modern languages
 KW  - Source code generation
 KW  - Trustworthiness
 KW  - Software engineering
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8784,7 +8572,7 @@ KW  - Objective alignment
 KW  - Repair methods
 KW  - Test case
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8811,7 +8599,7 @@ KW  - Performance
 KW  - Round trip
 KW  - Round-trip translation
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -8841,7 +8629,7 @@ KW  - Repair algorithms
 KW  - Software debugging
 KW  - Source codes
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8867,7 +8655,7 @@ KW  - Strong test
 KW  - Test oracle generation
 KW  - Test oracles
 KW  - Java programming language
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8894,7 +8682,7 @@ KW  - Particle swarm
 KW  - Repair techniques
 KW  - Search-based
 KW  - Deep neural networks
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8921,7 +8709,7 @@ KW  - Software defects
 KW  - Software-Reliability
 KW  - Transformer
 KW  - Software reliability
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -8955,7 +8743,7 @@ KW  - Neo4j
 KW  - Repair planning
 KW  - Retrieval-augmented generation
 KW  - Decision support systems
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -8980,7 +8768,7 @@ KW  - Program synthesis
 KW  - Ranking algorithm
 KW  - Unit tests
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -9008,7 +8796,7 @@ KW  - Software bug
 KW  - Software-Reliability
 KW  - Template-based approaches
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9041,7 +8829,7 @@ KW  - Java
 KW  - Language model
 KW  - Pre-trained code language model
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9069,7 +8857,7 @@ KW  - Program repair
 KW  - Real-world
 KW  - Spectra's
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9090,7 +8878,7 @@ KW  - Simple++
 KW  - Text query
 KW  - Traceback
 KW  - Information retrieval
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9114,7 +8902,7 @@ KW  - Performance
 KW  - Performance bugs
 KW  - Software performance
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9143,14 +8931,14 @@ KW  - Large language model
 KW  - Performance
 KW  - Source codes
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - label.ris.referenceType.CONFERENCE_REVIEW.p
 TI  - Proceedings - 2025 12th International Conference on Dependable Systems and Their Applications, DSA 2025
 UR  - https://www.scopus.com/pages/publications/105033027382?origin=resultslist
 AB  - The proceedings contain 60 papers. The topics discussed include: an improved Greylag goose optimization algorithm for heterogeneous cloud computing task scheduling; a low-code-based general-purpose test software development platform; challenges, progress, and future directions of visual tracking in UAVs; security threats in the inference phase of large language models; individualized NIPT timing via regression and dynamic programming; confidence correction of object detection based on heatmap; lights, camera, adversarial action! a study of role-playing prompt effects on LLM attack susceptibility; AgentRepair: multi-agent, AST-anchored, retrieval-augmented program repair for cold-start environments; and multi-source information fusion for recognition of typical paved-road features.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -9185,7 +8973,7 @@ KW  - Pull request
 KW  - Self-admitted AI usage
 KW  - Work-flows
 KW  - Software design
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -9218,7 +9006,7 @@ KW  - Large language model
 KW  - Software defects
 KW  - Technology-based
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -9245,7 +9033,7 @@ KW  - Repair techniques
 KW  - Repair tools
 KW  - Test case
 KW  - Quality assurance
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9275,7 +9063,7 @@ KW  - Template selection
 KW  - Template-based
 KW  - Application programs
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9303,7 +9091,7 @@ KW  - Method comment
 KW  - Plug-ins
 KW  - Program comprehension
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9336,7 +9124,7 @@ KW  - Programming course
 KW  - Software engineering course
 KW  - Tutoring system
 KW  - Students
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9364,7 +9152,7 @@ KW  - Test assertion generation
 KW  - Test assertions
 KW  - Transformer
 KW  - Demonstrations
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9395,7 +9183,7 @@ KW  - Security vulnerabilities
 KW  - Training data
 KW  - Vulnerability
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -9422,7 +9210,7 @@ KW  - Machine learning methods
 KW  - Machine-learning
 KW  - Natural languages
 KW  - Machine learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9453,7 +9241,7 @@ KW  - Quality chain
 KW  - Rejection samplings
 KW  - Tree-search
 KW  - Chains
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -9481,7 +9269,7 @@ KW  - Software project
 KW  - Software sustainability
 KW  - Software-tools
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9503,7 +9291,7 @@ KW  - Program analysis
 KW  - Program instrumentations
 KW  - Small data set
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9534,7 +9322,7 @@ KW  - Retrieval-augmented generation
 KW  - Software bug
 KW  - Stack overflow
 KW  - Knowledge graph
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9564,7 +9352,7 @@ KW  - Refactorings
 KW  - Software modernization
 KW  - Traditional techniques
 KW  - Open systems
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9596,7 +9384,7 @@ KW  - Pre-training
 KW  - Solidity
 KW  - Vulnerability detection
 KW  - Multi agent systems
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -9626,7 +9414,7 @@ KW  - Software security
 KW  - Thompson sampling algorithm
 KW  - Thompson samplings
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9653,7 +9441,7 @@ KW  - Repair methods
 KW  - State of the art
 KW  - Teachers'
 KW  - Large datasets
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9678,7 +9466,7 @@ KW  - Maintenance productivity
 KW  - Program repair
 KW  - Programming tasks
 KW  - Curricula
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -9694,7 +9482,7 @@ KW  - memory vulnerabilities
 KW  - OWASP Top 10
 KW  - software security
 KW  - static-dynamic analysis
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9711,7 +9499,7 @@ KW  - Repair costs
 KW  - Repair techniques
 KW  - State of the art
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -9741,7 +9529,7 @@ KW  - Multi-stages
 KW  - Performance
 KW  - Repair process
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9764,7 +9552,7 @@ KW  - Search spaces
 KW  - Search-based
 KW  - Search-based algorithms
 KW  - Java programming language
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9786,7 +9574,7 @@ KW  - Source codes
 KW  - Strategy formulations
 KW  - Tree-structured
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9815,7 +9603,7 @@ KW  - Motion design
 KW  - Program synthesis
 KW  - Technical expertise
 KW  - Animation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -9844,7 +9632,7 @@ KW  - Synthetic benchmark
 KW  - Test repair
 KW  - Unit tests
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9868,7 +9656,7 @@ KW  - Knowledge-sharing
 KW  - Negative sentiments
 KW  - Pull request
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -9899,7 +9687,7 @@ KW  - Software security
 KW  - Software vulnerabilities
 KW  - Vulnerability detection
 KW  - Formal verification
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -9927,7 +9715,7 @@ KW  - Single page application
 KW  - WEB application
 KW  - Web applications
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -9955,7 +9743,7 @@ KW  - Invasive coronary angiography
 KW  - Performance
 KW  - Sliding window techniques
 KW  - Computer aided diagnosis
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -9987,7 +9775,7 @@ KW  - Programming teaching
 KW  - Systematic literature review
 KW  - Teaching evaluation
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -10017,7 +9805,7 @@ KW  - Natural languages
 KW  - Rule based
 KW  - System output
 KW  - Artificial intelligence
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10046,7 +9834,7 @@ KW  - Large language model.
 KW  - P rogram repair
 KW  - Performance
 KW  - Pipelines
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -10072,7 +9860,7 @@ KW  - Performance
 KW  - Repair process
 KW  - Repair techniques
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10096,7 +9884,7 @@ KW  - Retrieval frameworks
 KW  - Tailored Solutions
 KW  - Underlying cause
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10123,7 +9911,7 @@ KW  - Software testings
 KW  - Test case
 KW  - Test generations
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10154,7 +9942,7 @@ KW  - Program repair
 KW  - Repair techniques
 KW  - Software-systems
 KW  - Benchmarking
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -10183,7 +9971,7 @@ KW  - Reproducibilities
 KW  - Software development management
 KW  - Source-coding
 KW  - Python
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10210,7 +9998,7 @@ KW  - Screen sizes
 KW  - Stack overflow
 KW  - Trial and error
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10238,7 +10026,7 @@ KW  - State of the art
 KW  - Transformer modeling
 KW  - Windowing techniques
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10264,7 +10052,7 @@ KW  - Program repair
 KW  - Programming assignments
 KW  - Workplace practices
 KW  - Java programming language
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10297,7 +10085,7 @@ KW  - Large language model
 KW  - Multiagent framework
 KW  - Openai
 KW  - Artificial intelligence
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10329,7 +10117,7 @@ KW  - Software vulnerability detection
 KW  - Static program analysis
 KW  - Vulnerability detection
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10358,21 +10146,21 @@ KW  - Software security
 KW  - Vulnerability detection
 KW  - Vulnerability repair
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - label.ris.referenceType.CONFERENCE_REVIEW.p
 TI  - SLE 2023 - Proceedings of the 16th ACM SIGPLAN International Conference on Software Language Engineering, Co-located with: SPLASH 2023
 UR  - https://www.scopus.com/pages/publications/85177686576?origin=resultslist
 AB  - The proceedings contain 20 papers. The topics discussed include: exceptions all over the shop: modular, customizable, language-independent exception handling layer; an executable semantics for faster development of optimizing python compilers; adaptive structural operational semantics; sharing trees and contextual information: re-imagining forwarding in attribute grammars; nanopass attribute grammars; automated extraction of grammar optimization rule configurations for metamodel-grammar co-evolution; reuse and automated integration of recommenders for modelling languages; GPT-3-powered type error debugging: investigating the use of large language models for code repair; temporal breakpoints for multiverse debugging; seamless code generator synchronization in the composition of heterogeneous modeling languages; and deriving integrated multi-viewpoint modeling languages from heterogeneous modeling languages: an experience report.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - label.ris.referenceType.CONFERENCE_REVIEW.p
 TI  - Proceedings - 2024 ACM/IEEE International Workshop on Automated Program Repair, APR 2024
 UR  - https://www.scopus.com/pages/publications/85204437570?origin=resultslist
 AB  - The proceedings contain 14 papers. The topics discussed include: towards developing effective fault localization techniques for termination bugs in loop programs; RepairCAT: applying large language model to fix bugs in AI-generated programs; automated program repair for introductory programming assignments via bidirectional refactoring; C-pack of IPAs: A C90 program benchmark of introductory programming assignments; ASAP-Repair: API-specific automated program repair based on API usage graphs; BOSS: Adataset to train ML-based systems to repair programs with out-of-bounds write flaws; large language models in automated repair of Haskell Type errors; and ARJA-e for the first international competition on automated program repair.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10399,7 +10187,7 @@ KW  - Programming language models
 KW  - Quality of softwares
 KW  - Software products
 KW  - Pattern recognition
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -10428,7 +10216,7 @@ KW  - Prompt
 KW  - Python code
 KW  - Refactorings
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -10498,7 +10286,7 @@ KW  - bone regeneration
 KW  - chemistry
 KW  - metabolism
 KW  - Biocompatibility
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10517,7 +10305,7 @@ KW  - Self-training
 KW  - Training dataset
 KW  - Verification framework
 KW  - Model checking
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10540,7 +10328,7 @@ KW  - Reasoning ability
 KW  - Repair process
 KW  - Resource programming
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10569,7 +10357,7 @@ KW  - Semantics understanding
 KW  - Text data
 KW  - Training codes
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10591,7 +10379,7 @@ KW  - Security vulnerabilities
 KW  - Software integrity
 KW  - Vulnerability detection
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10619,7 +10407,7 @@ KW  - Programming tutors
 KW  - Software repair
 KW  - Training data
 KW  - Open source software
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -10648,7 +10436,7 @@ KW  - Software defects
 KW  - State of the art
 KW  - Template-based method
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -10680,7 +10468,7 @@ KW  - Program repair
 KW  - State-of-the-art performance
 KW  - Syntactic patterns
 KW  - Syntactics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10706,7 +10494,7 @@ KW  - Test case
 KW  - Testing procedure
 KW  - Validation process
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -10737,7 +10525,7 @@ KW  - Software testings
 KW  - Test code
 KW  - Test repair
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -10768,7 +10556,7 @@ KW  - Large language model
 KW  - NIST 800-22
 KW  - Randomness test
 KW  - Random processes
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10794,7 +10582,7 @@ KW  - Programming tutoring
 KW  - Related products
 KW  - Research topics
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10822,7 +10610,7 @@ KW  - Repair techniques
 KW  - Repair tools
 KW  - Template-based approaches
 KW  - Neural machine translation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10853,7 +10641,7 @@ KW  - Software tasks
 KW  - Software-Reliability
 KW  - Training data
 KW  - Software reliability
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10877,7 +10665,7 @@ KW  - Language model
 KW  - Large language model
 KW  - Project levels
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10889,7 +10677,7 @@ KW  - open-vocabulary object detection
 KW  - pseudo label
 KW  - self-training
 KW  - vision and language
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -10922,7 +10710,7 @@ KW  - Reinforcement learnings
 KW  - Technical debts
 KW  - Work-flows
 KW  - Reinforcement learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -10949,7 +10737,7 @@ KW  - Security
 KW  - Security bugs
 KW  - Software
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -10980,7 +10768,7 @@ KW  - Large language model
 KW  - Quality issues
 KW  - Sonarqube
 KW  - Static analysis
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -11008,7 +10796,7 @@ KW  - Large language model cost analyze
 KW  - Performance
 KW  - Software development history
 KW  - Economic and social effects
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11038,7 +10826,7 @@ KW  - Model outputs
 KW  - Privacy preservation
 KW  - Se- cure software engineering
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11065,7 +10853,7 @@ KW  - Software testings
 KW  - Specific tasks
 KW  - User data
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11087,7 +10875,7 @@ KW  - Program repair
 KW  - Repair methods
 KW  - State-of-the-art performance
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11116,7 +10904,7 @@ KW  - Large language model
 KW  - Performance
 KW  - Prompt engineering
 KW  - Open source software
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11141,7 +10929,7 @@ KW  - Programming exercise
 KW  - Programming exercise generation
 KW  - Teaching efficiencies
 KW  - Open systems
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -11167,7 +10955,7 @@ KW  - Neural program repair
 KW  - Neural-networks
 KW  - Test projects
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11190,14 +10978,14 @@ KW  - Natural structures
 KW  - Performance
 KW  - State-of-the-art performance
 KW  - Python
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - label.ris.referenceType.CONFERENCE_REVIEW.p
 TI  - Proceedings - 2023 IEEE/ACM International Workshop on Automated Program Repair, APR 2023
 UR  - https://www.scopus.com/pages/publications/85168478963?origin=resultslist
 AB  - The proceedings contain 7 papers. The topics discussed include: mining fix patterns with context information for automatic program repair; quick repair of semantic errors for debugging; FixEval: execution-based evaluation of program fixes for programming problems; program repair competition; beyond code generation: the need for type-aware language models; an analysis of the automatic bug fixing performance of ChatGPT; and an extensive study on model architecture and program representation in the domain of learning-based automated program repair.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11226,7 +11014,7 @@ KW  - Model-based OPC
 KW  - Software testings
 KW  - Source codes
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -11259,7 +11047,7 @@ KW  - Source codes
 KW  - Specification code
 KW  - Verilog HDL
 KW  - Computer hardware description languages
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11286,7 +11074,7 @@ KW  - Limited attentions
 KW  - Performance
 KW  - Prompt engineering
 KW  - Static analysis
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -11319,7 +11107,7 @@ KW  - Learn+
 KW  - Overfitting
 KW  - Software maintenance costs
 KW  - Static analysis
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -11351,7 +11139,7 @@ KW  - Sociotechnical systems
 KW  - Software repositories
 KW  - Work-flows
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11377,7 +11165,7 @@ KW  - Test driven development
 KW  - Test generations
 KW  - Work-flows
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11404,7 +11192,7 @@ KW  - Program repair
 KW  - Real-world
 KW  - Simple++
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11417,7 +11205,7 @@ KW  - Program verification
 KW  - Software
 KW  - Software Engineering
 KW  - Software Quality/SQA
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -11450,7 +11238,7 @@ KW  - Security fix
 KW  - Security vulnerabilities
 KW  - Source codes
 KW  - Application programs
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -11480,7 +11268,7 @@ KW  - Multi agent
 KW  - Multi-agent collaboration
 KW  - Software bug
 KW  - Multi agent systems
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11513,7 +11301,7 @@ KW  - Relative pose regression
 KW  - Retail application
 KW  - Transformer
 KW  - Cameras
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11535,7 +11323,7 @@ KW  - Natural languages
 KW  - Performance
 KW  - Test case generation
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -11570,7 +11358,7 @@ KW  - Neural-networks
 KW  - Performance
 KW  - Systematic literature review
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -11607,7 +11395,7 @@ KW  - Safety-utility tradeoff
 KW  - Systematisation
 KW  - Systematization of knowledge
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11631,7 +11419,7 @@ KW  - Large language model
 KW  - Prompt tuning
 KW  - Software-Reliability
 KW  - Software reliability
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -11666,7 +11454,7 @@ KW  - Program repair
 KW  - Single models
 KW  - Tutoring system
 KW  - Multi agent systems
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11697,7 +11485,7 @@ KW  - Fault localization
 KW  - Language model
 KW  - Large language model
 KW  - Software design
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -11717,7 +11505,7 @@ KW  - Security Properties
 KW  - Side-Channel Attacks
 KW  - Trojans
 KW  - Verification
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11737,7 +11525,7 @@ KW  - SystemVerilog assertions
 KW  - Test-bench
 KW  - Unintended behavior
 KW  - Design
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11758,7 +11546,7 @@ KW  - Semantic reasoning
 KW  - Software vulnerabilities
 KW  - Test inputs
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -11784,7 +11572,7 @@ KW  - Programming abstractions
 KW  - Real world projects
 KW  - Rule based
 KW  - Python
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11814,7 +11602,7 @@ KW  - Large language model
 KW  - Openmp
 KW  - Transformer encoder
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -11850,7 +11638,7 @@ KW  - Similarity detection
 KW  - Software security
 KW  - Binary codes
 KW  - Forecasting
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -11888,7 +11676,7 @@ KW  - optical coherence tomography
 KW  - phase 3 clinical trial
 KW  - randomized controlled trial
 KW  - receiver operating characteristic
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -11918,7 +11706,7 @@ KW  - Software asset managements
 KW  - Software ecosystems
 KW  - Software Quality
 KW  - Computer software selection and evaluation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -11931,7 +11719,7 @@ KW  - engineering applications
 KW  - ethical AI deployment
 KW  - large language models
 KW  - systematic literature review
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11956,14 +11744,14 @@ KW  - Software development projects
 KW  - Test case
 KW  - Test case generation
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - label.ris.referenceType.CONFERENCE_REVIEW.p
 TI  - Proceedings - 2024 IEEE International Conference on Software Analysis, Evolution and Reengineering, SANER 2024
 UR  - https://www.scopus.com/pages/publications/85199759064?origin=resultslist
 AB  - The proceedings contain 105 papers. The topics discussed include: LogLead – fast and integrated log loader, enhancer, and anomaly detector; debloating feature-rich closed-source windows software; OppropBERL: a GNN and BERT-style reinforcement learning-based type inference; software architecture reconstruction for microservice systems using static analysis via GraalVM native image; catch the butterfly: peeking into the terms and conflicts among SPDX licenses; towards efficient program repair with APR tools based on genetic algorithms; reducing false positives of static bug detectors through code representation learning; BUMP: a benchmark of reproducible breaking dependency updates; JNFuzz-Droid: a lightweight fuzzing and taint analysis framework for android native code; and challenges of using pre-trained models: the practitioners’ perspective.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -11989,7 +11777,7 @@ KW  - Task description
 KW  - Unit testing
 KW  - Work-flows
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -12055,7 +11843,7 @@ KW  - Text data augmentation
 KW  - Training data
 KW  - Codes (symbols)
 KW  - Cost effectiveness
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -12088,7 +11876,7 @@ KW  - Permeability
 KW  - Physio-chemical properties
 KW  - Solid state characterization
 KW  - Solubility
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12120,7 +11908,7 @@ KW  - Large language model
 KW  - Stack trace analyze
 KW  - Symbolic execution
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12147,7 +11935,7 @@ KW  - Original structures
 KW  - Programming assignments
 KW  - Programming software
 KW  - Graph neural networks
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12174,7 +11962,7 @@ KW  - Synthesis rules
 KW  - Template coverage
 KW  - Type errors
 KW  - Python
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -12211,7 +11999,7 @@ KW  - Program synthesis
 KW  - Program translation
 KW  - Type systems
 KW  - Program translators
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12235,7 +12023,7 @@ KW  - Root cause
 KW  - Symbolic techniques
 KW  - Test flakiness
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12260,7 +12048,7 @@ KW  - Repair program
 KW  - Repair techniques
 KW  - Writing codes
 KW  - Engines
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12280,7 +12068,7 @@ KW  - Source codes
 KW  - State of the art
 KW  - Transfer performance
 KW  - Computational linguistics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12305,7 +12093,7 @@ KW  - Leaderboard
 KW  - Program repair
 KW  - Real world projects
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12331,7 +12119,7 @@ KW  - Parameter-effective fine-tuning
 KW  - Performance
 KW  - Pre-training
 KW  - Open source software
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12364,7 +12152,7 @@ KW  - Programming education
 KW  - Semantic errors
 KW  - Semantic program error
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -12396,7 +12184,7 @@ KW  - Performance
 KW  - Software bug
 KW  - State of the art
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -12419,7 +12207,7 @@ KW  - Software testings
 KW  - Test projects
 KW  - Unit tests
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12430,7 +12218,7 @@ AB  - Automatic Program Repair (APR) is a core technology in software developmen
 KW  - Automatic Program Repair
 KW  - Chain of Thought
 KW  - Large Language Models
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12457,7 +12245,7 @@ KW  - Large language model
 KW  - Modeling performance
 KW  - Real-world
 KW  - Benchmarking
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12485,7 +12273,7 @@ KW  - Prompt engineering
 KW  - Security vulnerabilities
 KW  - Web development
 KW  - Computational linguistics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -12516,14 +12304,14 @@ KW  - Runtimes
 KW  - Self repair
 KW  - Static-semantic analysis
 KW  - Dynamic analysis
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
 TI  - 29th International Conference on Engineering of Complex Computer Systems, ICECCS 2025
 UR  - https://www.scopus.com/pages/publications/105020710076?origin=resultslist
 AB  - The proceedings contain 32 papers. The special focus in this conference is on Engineering of Complex Computer Systems. The topics include: FinPTA: An Effective Model for Financial Sentiment Analysis; single Image Defocus Deblurring in Photography Systems; AMF-GCN: An Adaptive Graph Convolution Network for Pull-up Evaluation; A Q-Learning-Driven Multi-crossover NSGA-II Framework for Energy-Efficient Hybrid Flow Shop Scheduling; MixRecLGB: Language-Enhanced Mixed Attention for Temporal Context Modeling in Time Series Forecasting; PAMUS: An Entropy-Loss-Based Poisoning Attack for Undermining Machine Unlearning; Certified Enumeration of AI Explanations: A Focus on Monotonic Classifiers; random Resampling of Training Data for Effective Verification Strategy Prediction; DeepMR: A Learning-Based Approach for Efficient Mutation Reduction in DNN Fault Localization; Investigating the OOV Problem and Its Impacts on Neural Program Repair; auction-Based Caching Decision Algorithm for IoT Traffic with Popular and Fresh Content; Maximizing Long-Term Task Completion Ratio of 3D-UAV-Enabled Wirelessly Powered MEC System; towards Efficient and Secure Multimodal Misinformation Detection; leveraging Large Language Models for Feature Envy Detection: A Context-Aware and Reasoning-Driven Approach; RustMap: Towards Project-Scale C-to-Rust Migration via Program Analysis and LLM; LTL Model Checking of Concurrent Self Modifying Code; checking Linearizability of Multi-core Task Management and Scheduling System; contract-Based Verification of Digital Twins; verifying Neural Network Controlled Systems by Combining Taylor Models and Linear Abstract Domains; model Checking Nondeterministic Behaviours in the Tendermint Byzantine Fault Tolerant Blockchain Consensus Protocol; uncover the Risks of Outdated Dependencies in Software Supply Chains: Insights from the npm Ecosystem; EMS-HFL: A Hybrid Based Fault Localization; CONTAST: Graph Embedding Based Fault Localization Integrating AST and Context-Awareness; A Vision for Access Control in LLM Agent Systems; agent Behavior: The Regulatory Object of the Agent-Centric Online Ecosystem in Digital Age; empowering Embodied Agents with Semantic Intelligence; an Analytical Perspective on Software Engineering for Large Language Models.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12553,7 +12341,7 @@ KW  - Multi agent
 KW  - Multiagent systems (MASs)
 KW  - Retrieval-augmented generation
 KW  - Multi agent systems
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12572,7 +12360,7 @@ KW  - Repair techniques
 KW  - Repair tools
 KW  - Software bug
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -12599,7 +12387,7 @@ KW  - Language model
 KW  - Programming environment
 KW  - Trustworthy softwares
 KW  - Automatic programming
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12633,7 +12421,7 @@ KW  - Prompt engineering
 KW  - Semiconductor technology
 KW  - Work-flows
 KW  - Field programmable gate arrays (FPGA)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12658,7 +12446,7 @@ KW  - Search based software engineering
 KW  - Search-based
 KW  - Simple++
 KW  - Genetic programming
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -12671,7 +12459,7 @@ KW  - Convolutional neural network
 KW  - Spatial attention module
 KW  - Turmeric plant disease
 KW  - Vision transformer
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -12701,7 +12489,7 @@ KW  - Software-systems
 KW  - Test case
 KW  - Unit testing
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -12730,7 +12518,7 @@ KW  - LLM
 KW  - Multi-core processor
 KW  - Processor systems
 KW  - Extraction
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -12760,7 +12548,7 @@ KW  - Patch ranking
 KW  - Repair techniques
 KW  - Test case
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12800,7 +12588,7 @@ KW  - Self-healing
 KW  - Self-healing software
 KW  - Transformer modeling
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12827,7 +12615,7 @@ KW  - Pre-training
 KW  - Source codes
 KW  - Usage patterns
 KW  - Python
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12859,7 +12647,7 @@ KW  - Large language model
 KW  - Open source language
 KW  - Open-source language model
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12879,7 +12667,7 @@ KW  - Repair strategy
 KW  - Repair techniques
 KW  - State of the art
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12906,7 +12694,7 @@ KW  - Fine tuning
 KW  - Large-scales
 KW  - Software-Reliability
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -12937,7 +12725,7 @@ KW  - Language model
 KW  - Large language model
 KW  - Retrieval augmented generation
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12967,7 +12755,7 @@ KW  - Software bug
 KW  - State of the art
 KW  - Template-based
 KW  - Forecasting
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -12993,7 +12781,7 @@ KW  - Vulnerability explanation
 KW  - Vulnerability mitigation
 KW  - Vulnerability patching
 KW  - Multi agent systems
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13019,7 +12807,7 @@ KW  - Real world projects
 KW  - Real-world
 KW  - Repair techniques
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -13050,7 +12838,7 @@ KW  - Project managers
 KW  - Software maintenance and evolution
 KW  - Work-flows
 KW  - Forecasting
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13075,7 +12863,7 @@ KW  - Test case
 KW  - Unit tests
 KW  - Wrong answers
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -13104,7 +12892,7 @@ KW  - Quality enhancement
 KW  - Real- time
 KW  - Uncertainty
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13130,7 +12918,7 @@ KW  - Resource leaks
 KW  - Software-Reliability
 KW  - System crashes
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13156,7 +12944,7 @@ KW  - Understandability
 KW  - Unit testing
 KW  - Unit tests
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13190,7 +12978,7 @@ KW  - Performance
 KW  - T5
 KW  - Transformer
 KW  - Software design
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13213,7 +13001,7 @@ KW  - Real-world
 KW  - System crashes
 KW  - Systems performance
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13244,7 +13032,7 @@ KW  - Temporal relational reasoning
 KW  - Viet Nam
 KW  - Vietnamese
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -13277,7 +13065,7 @@ KW  - Synthetic data generations
 KW  - Synthetic training data
 KW  - Training data
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13304,7 +13092,7 @@ KW  - Optimistics
 KW  - Program repair
 KW  - Training data
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13332,7 +13120,7 @@ KW  - Large language model
 KW  - Performance
 KW  - Repository-level bug
 KW  - Static analysis
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13359,7 +13147,7 @@ KW  - Localization technique
 KW  - Repair rate
 KW  - Type systems
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -13382,7 +13170,7 @@ KW  - Program language model
 KW  - Software security
 KW  - Text generations
 KW  - Automatic programming
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13407,14 +13195,14 @@ KW  - Misconfigurations
 KW  - Model based approach
 KW  - Software codes
 KW  - Infrastructure as a service (IaaS)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
 TI  - Cross-lingual Transfer in Programming Languages: An Extensive Empirical Study
 UR  - https://www.scopus.com/pages/publications/105008821611?origin=resultslist
 AB  - Large language models (LLMs) have achieved state-of-the-art performance in various software engineering tasks, including error detection, clone detection, and code translation, primarily leveraging high-resource programming languages like Python and Java. However, many critical languages, such as COBOL, as well as emerging languages, such as Rust and Swift, remain low-resource due to limited openly available code. This scarcity hampers the training and effectiveness of LLMs for these languages, increasing software maintenance costs and stifling innovation. Addressing this gap, we investigate the potential of transfer learning to enhance LLM performance on low-resource programming languages by leveraging data from high-resource counterparts. Our extensive empirical study evaluates transferability across 10 to 41 programming languages and five key tasks: code generation, clone detection, code repair, solution domain classification, and error detection. Additionally, we develop a performance prediction model to guess the best source languages for a given target and task, and analyze the features that influence transfer performance. We further replicate a representative subset of experiments with a larger model to test the generalizability of our conclusions to contemporary large-scale LLMs. Our findings demonstrate that cross-lingual transfer significantly outperforms zero-shot learning, with effectiveness varying based on both source and target languages. Languages such as Java and Go emerge as the best tar-gets, while Kotlin and JavaScript are excellent sources. Furthermore, our model reliably predicts successful transfer sources by considering linguistic and dataset-specific features, offering practical guidance for data acquisition and model training. This work contributes to the development of LLM-driven tools for low-resource programming languages and provides insights into the characteristics that facilitate transfer across language pairs. © 2025, Transactions on Machine Learning Research. All rights reserved.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -13442,7 +13230,7 @@ KW  - Neural machine translation
 KW  - Performance
 KW  - Software Quality
 KW  - Program translators
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -13472,7 +13260,7 @@ KW  - Patch overfitting
 KW  - Program repair
 KW  - Semantic graphs
 KW  - Automation
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -13486,7 +13274,7 @@ KW  - Checkpoint ensemble
 KW  - Deep learning
 KW  - Fine-tuning
 KW  - Pre-trained model
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -13513,7 +13301,7 @@ KW  - Optimal codes
 KW  - Parameter-efficient fine-tuning
 KW  - State of the art
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13540,7 +13328,7 @@ KW  - Large language model
 KW  - Model application
 KW  - Quality evaluation
 KW  - Quality control
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13556,7 +13344,7 @@ KW  - Large-scales
 KW  - Performance
 KW  - Simple++
 KW  - Professional aspects
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13580,7 +13368,7 @@ KW  - Runtimes
 KW  - State of the art
 KW  - Teachers'
 KW  - Cameras
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13611,7 +13399,7 @@ KW  - Natural languages
 KW  - Software maintenance process
 KW  - Tracking system
 KW  - Open source software
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13622,7 +13410,7 @@ AB  - Open-vocabulary detection (OVD) is an object detection task aiming at dete
 KW  - detection
 KW  - Recognition: Categorization
 KW  - retrieval
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13648,7 +13436,7 @@ KW  - Self-healing systems
 KW  - Software bug
 KW  - System functionality
 KW  - Anomaly detection
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13676,7 +13464,7 @@ KW  - Javascript
 KW  - Machine-learning
 KW  - State of the art
 KW  - Machine learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13702,7 +13490,7 @@ KW  - Pre-training
 KW  - Pretrained language model
 KW  - Source codes
 KW  - Computational linguistics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -13733,7 +13521,7 @@ KW  - Network configuration verification
 KW  - Synthesis translation
 KW  - Translation
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13761,7 +13549,7 @@ KW  - Repair tools
 KW  - Student project
 KW  - Tool correction
 KW  - Large dataset
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13791,7 +13579,7 @@ KW  - Precise control
 KW  - Testing and repair
 KW  - Testing machine
 KW  - Efficiency
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13812,14 +13600,14 @@ KW  - Program repair
 KW  - Self-consistency
 KW  - State of the art
 KW  - Application programs
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - label.ris.referenceType.CONFERENCE_REVIEW.p
 TI  - Proceedings - International Workshop on Automated Program Repair, APR 2022
 UR  - https://www.scopus.com/pages/publications/85135165937?origin=resultslist
 AB  - The proceedings contain 11 papers. The topics discussed include: scaling genetic improvement and automated program repair; language models can prioritize patches for practical program patching; revisiting object similarity-based patch ranking in automated program repair: an extensive study; Figra: evaluating a larger search space for Cardumen in automatic program repair; be realistic: automated program repair is a combination of undecidable problems; what can program repair learn from code review?; framing program repair as code completion; enhancing spectrum based fault localization via emphasizing its formulas with importance weight; towards JavaScript program repair with generative pre-trained transformer (GPT-2); and can OpenAI's codex fix bugs?: an evaluation on QuixBugs.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13846,7 +13634,7 @@ KW  - Pre-training
 KW  - Source code representations
 KW  - Source codes
 KW  - Application programs
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13878,7 +13666,7 @@ KW  - Mutation
 KW  - Mutation testing
 KW  - Naturalness
 KW  - Fault tolerance
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13906,7 +13694,7 @@ KW  - Program repair
 KW  - Programming exercise
 KW  - Two-stream
 KW  - Machine learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13933,7 +13721,7 @@ KW  - Programming language models
 KW  - Training data
 KW  - Vulnerability
 KW  - Benchmarking
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13960,7 +13748,7 @@ KW  - Type inferences
 KW  - Type systems
 KW  - Variable functions
 KW  - Computational linguistics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -13985,7 +13773,7 @@ KW  - Prioritization schemes
 KW  - Provide guidances
 KW  - Repair tools
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14009,7 +13797,7 @@ KW  - Recognition models
 KW  - State of the art
 KW  - Visual recognition
 KW  - Object recognition
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14040,7 +13828,7 @@ KW  - Sec2sec model
 KW  - Tokenizer
 KW  - Transformer of python
 KW  - Python
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14071,7 +13859,7 @@ KW  - Natural languages
 KW  - Repair tools
 KW  - Source codes
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14095,7 +13883,7 @@ KW  - Recent researches
 KW  - State of the art
 KW  - Training process
 KW  - Generative adversarial networks
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14116,7 +13904,7 @@ KW  - Text input
 KW  - Training data
 KW  - Training methods
 KW  - Object detection
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14148,7 +13936,7 @@ KW  - Software development and maintenances
 KW  - Sonarqube defect
 KW  - Transfer learning
 KW  - Defects
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14175,7 +13963,7 @@ KW  - Software bug
 KW  - State of the art
 KW  - Vulnerability repair
 KW  - Natural language processing systems
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -14219,7 +14007,7 @@ KW  - Software debugging
 KW  - Task analysis
 KW  - Text-mining
 KW  - Codes (symbols)
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14262,7 +14050,7 @@ KW  - Software maintenance and evolution
 KW  - Software process
 KW  - Software testings
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14289,7 +14077,7 @@ KW  - Small data set
 KW  - Software-systems
 KW  - Vulnerability
 KW  - Benchmarking
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14315,7 +14103,7 @@ KW  - Performance
 KW  - Program repair
 KW  - Programming problem
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -14347,14 +14135,14 @@ KW  - Semantics Information
 KW  - Structural information
 KW  - Transformer
 KW  - Semantics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
 TI  - 2nd International Conference on Recent Trends in Machine Learning, IoT, Smart Cities and Applications, ICMISC 2021
 UR  - https://www.scopus.com/pages/publications/85123627569?origin=resultslist
 AB  - The proceedings contain 71 papers. The special focus in this conference is on Recent Trends in Machine Learning. The topics include: Skin Cancer Detection Using Image Processing: A Review; a Comprehensive Survey on Free Parking Space, Road Signs and Lane Detection; Emotions During Covid-19: LSTM Models for Emotion Detection in Tweets; Glaucoma Detection with Fundus Images Based on NTKFIBC-IS Segmentation; characteristic Overview of Digital Image Forensics Tools; Advances in Experimental Paradigms for EEG-BCI; survey on Edge, Fog Assisted IoT Framework Using Intelligent Learning Techniques; implementation of Network Intrusion Detection System Using Artificial Intelligence: Survey; a Novel Approach to Improve the Training of Deep Convolutional Networks; prediction of Agriculture Yields Using Machine Learning Algorithms; experimental and Analytical Studies of Blade Angle Influences Under Normal and Faulty Conditions; automatic Database Index Defragmentation Using Machine Learning; cross Domain Aspect Extraction Using Various Embedding Techniques and Language Models; a Literature Review on Automated Code Repair; Financial Portfolio Management and Optimization to Maximize Returns Using a Combination of HRP and Sentiment Analysis; an IoT Enabled Air Quality Monitoring Mobile App for Smart Cities; Design of Multimode Resonator Based UWB Bandpass Filter Using Multiple Stepped-Impedance Stub-Loaded Resonator for Smart Engineering Application; an Adaptive Statistical Stochastic Deep Gradient Learning for Handling Recurring and Incremental Drifts; a Review on Machine Learning Techniques to Predict the Reliability in Software Products; detection and Prevention of Malicious Activities in Vulnerable Network Security Using Deep Learning; credit Card Fraud Detection Using Support Vector Machine; implementation of College Network Scenario Using Cisco Packet Tracer; digital Health Infrastructure.
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14381,7 +14169,7 @@ KW  - Mutation testing
 KW  - Natural code
 KW  - Program code
 KW  - Application programs
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14413,7 +14201,7 @@ KW  - Repair models
 KW  - Software-Reliability
 KW  - Source codes
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14436,7 +14224,7 @@ KW  - Overfitting
 KW  - Surrogate modeling
 KW  - Video segmentation
 KW  - Restoration
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14465,7 +14253,7 @@ KW  - State of the art
 KW  - Target language
 KW  - Template-based
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14489,7 +14277,7 @@ KW  - State of the art
 KW  - Sub-optimal performance
 KW  - Text classification
 KW  - Deep learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -14518,7 +14306,7 @@ KW  - Long codes
 KW  - Semantic features
 KW  - Structural information
 KW  - Long short-term memory
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -14563,7 +14351,7 @@ KW  - Star tracking
 KW  - Terrain segmentations
 KW  - Transfer learning
 KW  - Aerospace applications
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14592,7 +14380,7 @@ KW  - Meta
 KW  - Or long-tail learning
 KW  - Transfer
 KW  - Zero-shot learning
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14619,7 +14407,7 @@ KW  - Quixbug
 KW  - Recent state
 KW  - State-of-the-art techniques
 KW  - Python
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14651,7 +14439,7 @@ KW  - Reuse
 KW  - Source codes
 KW  - Training time
 KW  - Transparency
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14676,7 +14464,7 @@ KW  - Learn+
 KW  - Statistical language modelling
 KW  - Sub trees
 KW  - Syntactics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14703,7 +14491,7 @@ KW  - Memory modeling
 KW  - Python code
 KW  - Syntax errors
 KW  - Syntactics
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14724,7 +14512,7 @@ KW  - Real-world
 KW  - Software bug
 KW  - Unit tests
 KW  - Software testing
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -14752,7 +14540,7 @@ KW  - Post-editing
 KW  - Post-processing
 KW  - Pre-trained language model
 KW  - Error correction
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14774,7 +14562,7 @@ KW  - Program synthesis
 KW  - Scalings
 KW  - Source codes
 KW  - Demonstrations
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14799,7 +14587,7 @@ KW  - Program repair
 KW  - Real-world
 KW  - Repair rate
 KW  - Repair
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14820,7 +14608,7 @@ KW  - Software developer
 KW  - Software engineering domain
 KW  - Unified framework
 KW  - Program debugging
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - CONF
@@ -14847,7 +14635,7 @@ KW  - Learn+
 KW  - Source codes
 KW  - Transformer.
 KW  - Deep neural networks
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
 TY  - JOUR
@@ -14860,6 +14648,6 @@ KW  - automated program repairing
 KW  - Bard
 KW  - Edge-cloud
 KW  - large langue model
-N1  - Export Date: 05 July 2026
+N1  - Export Date: 01 July 2026
 ER  -
 
