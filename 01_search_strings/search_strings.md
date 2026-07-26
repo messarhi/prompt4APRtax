@@ -52,6 +52,6 @@ Boolean queries combined two concept groups with AND; synonyms within each group
 
 ## Snowballing (Manual Search)
 
-- **Seed papers:** [11]
+- **Seed papers:** [21]
 - **Method:** Backward (references) and forward (citations) snowballing.
-- **Additional records identified:** [21]
+- **Additional records identified:** [11]
