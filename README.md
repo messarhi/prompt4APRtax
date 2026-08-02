@@ -13,7 +13,7 @@ This paper is currently under review at the **Journal of Systems and Software (J
 ## ✍️ Authors
 
 - **Omar Messarhi** — RLP Lab and Computer Science Department, University of Biskra, Algeria. Email: [omar.messarhi@univ-biskra.dz](mailto:omar.messarhi@univ-biskra.dz)
-- **Lamine Kerdoudi** — RLP Lab and Computer Science Department, University of Biskra, Algeria. Email: [l.kerdoudi@univ-biskra.dz](mailto:l.kerdoudi@univ-biskra.dz)
+- **Mohamed Lamine Kerdoudi** — RLP Lab and Computer Science Department, University of Biskra, Algeria; and IRISA and Université Bretagne Sud, Vannes, France. Email: [l.kerdoudi@univ-biskra.dz](mailto:l.kerdoudi@univ-biskra.dz)
 - **Okba Tibermacine** — National School of Artificial Intelligence, Algiers, Algeria. Email: [okba.tibermacine@ensia.edu.dz](mailto:okba.tibermacine@ensia.edu.dz)
 
 ---
