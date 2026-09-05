@@ -15,10 +15,7 @@ This package supports full replication of the survey reported in Section 2 (Meth
   
   Email: [omar.messarhi@univ-biskra.dz](mailto:omar.messarhi@univ-biskra.dz)
 - **Mohamed Lamine Kerdoudi** — RLP Lab and Computer Science Department, University of Biskra, Algeria; and IRISA and Université Bretagne Sud, Vannes, France.
-  Emails:
-[l.kerdoudi@univ-biskra.dz](mailto:l.kerdoudi@univ-biskra.dz)
-
-[kerdoudi@univ-ubs.fr](mailto:kerdoudi@univ-ubs.fr)
+  Emails: [l.kerdoudi@univ-biskra.dz](mailto:l.kerdoudi@univ-biskra.dz)   and  [kerdoudi@univ-ubs.fr](mailto:kerdoudi@univ-ubs.fr)
 - **Okba Tibermacine** — National School of Artificial Intelligence, Algiers, Algeria.
   
   Email: [okba.tibermacine@ensia.edu.dz](mailto:okba.tibermacine@ensia.edu.dz)
