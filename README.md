@@ -3,10 +3,9 @@
 
 
 
-This package supports full replication of the survey reported in
-Section 2 (Methodology) of the paper. 
-
 This paper has been accepted for publication in the **Journal of Systems and Software (JSS)**.
+
+This package supports full replication of the survey reported in Section 2 (Methodology) of the paper. 
 
 ---
 
