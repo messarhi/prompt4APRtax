@@ -34,7 +34,7 @@ This package supports full replication of the survey reported in Section 2 (Meth
 
 ---
 
-## 1. Overview
+## 🔍 Overview
 
 This repository contains the full replication package for the survey titled:
 
@@ -44,7 +44,7 @@ The purpose of this package is to provide full transparency and enable the repli
 
 ---
 
-## 2. Repository Structure
+## 🌳 Repository Structure
 
 The repository is organized into three main folders:
 
@@ -57,7 +57,7 @@ The repository is organized into three main folders:
 
 ---
 
-## 3. Folder Details
+## 🗃️ Folder Details
 
 ### 📁 01_search_strings
 **Purpose:** Contains the final search strings (queries) used to query the digital libraries.
@@ -85,7 +85,7 @@ The repository is organized into three main folders:
 
 ---
 
-## 4. How to Reproduce the Results
+## 🔁 How to Reproduce the Results
 
 To fully reproduce the search and selection process:
 
@@ -93,19 +93,19 @@ To fully reproduce the search and selection process:
 
 ---
 
-## 5. Requirements / Dependencies
+## 📦 Requirements / Dependencies
 
 - To view `.bib` files, any reference manager (e.g., Zotero, Mendeley, JabRef) is recommended.
 - To view `.csv` and `.xlsx` files, a spreadsheet viewer (e.g., Microsoft Excel, Google Sheets, or LibreOffice Calc) is required.
 
 ---
 
-## 6. Acknowledgments
+## 🙏 Acknowledgments
 
 - We acknowledge all the authors of the primary studies included in this survey.
 
 ---
-## Citation
+## 📝 Citation
 
 Our paper has been accepted at the **Journal of Systems and Software (JSS)**! The camera-ready citation will be updated soon.
 
