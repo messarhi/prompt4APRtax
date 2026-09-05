@@ -6,7 +6,7 @@
 This package supports full replication of the survey reported in
 Section 2 (Methodology) of the paper. 
 
-This paper is currently under review at the **Journal of Systems and Software (JSS)**.
+This paper has been accepted for publication in the **Journal of Systems and Software (JSS)**.
 
 ---
 
