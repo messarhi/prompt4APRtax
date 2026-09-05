@@ -105,5 +105,20 @@ To fully reproduce the search and selection process:
 - We acknowledge all the authors of the primary studies included in this survey.
 
 ---
+## Citation
 
+Our paper has been accepted at the **Journal of Systems and Software (JSS)**! The camera-ready citation will be updated soon.
+
+```bibtex
+@article{,
+      title={Toward Effective LLM-Based Automated Program Repair: A Taxonomy of Prompting Strategies and Key Trends, Insights, and Challenges}, 
+      author={Omar Messarhi and Mohamed Lamine Kerdoudi and Okba Tibermacine},
+      journal={Journal of Systems and Software},
+      volume={},
+      pages={},
+      year={2026},
+      publisher={Elsevier}
+}
+```
+---
 **Last Updated:** [2026-08-02]
