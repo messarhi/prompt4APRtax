@@ -1,9 +1,6 @@
-# Replication Package
-## Toward Effective LLM-Based Automated Program Repair: A Taxonomy of Prompting Strategies and Key Trends, Insights, and Challenges
+# Toward Effective LLM-Based Automated Program Repair: A Taxonomy of Prompting Strategies and Key Trends, Insights, and Challenges
 
-
-
-This paper has been accepted for publication in the **Journal of Systems and Software (JSS)**.
+Automated Program Repair (APR) remains a core challenge in software engineering, primarily constrained by the rigid boundaries of search-based and template-driven methods. The emergence of Large Language Models (LLMs) has catalyzed a paradigm shift, enabling prompting-based approaches that exploit pre-trained reasoning capabilities to repair code without extensive fine-tuning. However, the rapid proliferation of these techniques lacks a systematic categorization framework, obscuring their unique functions and hindering practical application. In this paper, we present a taxonomy and analysis of recent prompting-based APR research. We propose a classification that organizes prompting strategies into three distinct families: Context and Structure Awareness, Cognitive Reasoning Enhancement, and Quality Assurance. Our findings highlight a highly concentrated research landscape; specifically, 66% of the reviewed studies rely on GPT-3.5 or GPT-4, and (54.7%) evaluate their approaches using the Defects4J benchmark. More critically, we identify systemic methodological limitations that limit real-world validity: 34% of studies rely on perfect fault localization, and 41.5% target single-function bugs, assumptions that significantly inflate performance metrics. This taxonomy synthesizes the state-of-the-art, exposes these “reality gaps” and outlines concrete research directions to transition prompting-based APR from academic benchmarks to industrial deployment. 
 
 This package supports full replication of the survey reported in Section 2 (Methodology) of the paper. 
 
@@ -107,18 +104,20 @@ To fully reproduce the search and selection process:
 ---
 ## 📝 Citation
 
-Our paper has been accepted at the **Journal of Systems and Software (JSS)**! The camera-ready citation will be updated soon.
-
 ```bibtex
-@article{,
-      title={Toward Effective LLM-Based Automated Program Repair: A Taxonomy of Prompting Strategies and Key Trends, Insights, and Challenges}, 
-      author={Omar Messarhi and Mohamed Lamine Kerdoudi and Okba Tibermacine},
-      journal={Journal of Systems and Software},
-      volume={},
-      pages={},
-      year={2026},
-      publisher={Elsevier}
+@article{MESSARHI2027113101,
+title = {Toward effective LLM-based Automated Program Repair: A taxonomy of prompting strategies and key trends, insights, and challenges},
+journal = {Journal of Systems and Software},
+volume = {243},
+pages = {113101},
+year = {2027},
+issn = {0164-1212},
+doi = {https://doi.org/10.1016/j.jss.2026.113101},
+url = {https://www.sciencedirect.com/science/article/pii/S0164121226003341},
+author = {Omar Messarhi and Mohamed Lamine Kerdoudi and Okba Tibermacine},
+keywords = {AutomAted Program Repair, Large Language Models, Prompting strategies, Software debugging, Program synthesis, LLM-based APR},
+abstract = {Automated Program Repair (APR) remains a core challenge in software engineering, primarily constrained by the rigid boundaries of search-based and template-driven methods. The emergence of Large Language Models (LLMs) has catalyzed a paradigm shift, enabling prompting-based approaches that exploit pre-trained reasoning capabilities to repair code without extensive fine-tuning. However, the rapid proliferation of these techniques lacks a systematic categorization framework, obscuring their unique functions and hindering practical application. In this paper, we present a taxonomy and analysis of recent prompting-based APR research. We propose a classification that organizes prompting strategies into three distinct families: Context and Structure Awareness, Cognitive Reasoning Enhancement, and Quality Assurance. Our findings highlight a highly concentrated research landscape; specifically, 66% of the reviewed studies rely on GPT-3.5 or GPT-4, and (54.7%) evaluate their approaches using the Defects4J benchmark. More critically, we identify systemic methodological limitations that limit real-world validity: 34% of studies rely on perfect fault localization, and 41.5% target single-function bugs, assumptions that significantly inflate performance metrics. This taxonomy synthesizes the state-of-the-art, exposes these “reality gaps” and outlines concrete research directions to transition prompting-based APR from academic benchmarks to industrial deployment. The replication package of this survey is available at: https://github.com/messarhi/prompt4APRtax.}
 }
 ```
 ---
-**Last Updated:** [2026-09-05]
+**Last Updated:** [2026-09-20]
