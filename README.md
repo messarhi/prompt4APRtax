@@ -49,11 +49,13 @@ The purpose of this package is to provide full transparency and enable the repli
 
 The repository is organized into three main folders:
 
+```
 .
 ├── 01_search_strings/
 ├── 02_search_results/
 ├── 03_included_studies/
 └── README.md
+```
 
 
 ---
